@@ -418,6 +418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb3f062894bfe84d883fda33b9be724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _pickUpDrop: {fileID: 4342156349358114985, guid: 27b7415662017a744bcbd3a8edf51425, type: 3}
+  _dropCount: 5
+  _spread: 0.7
 --- !u!212 &1036357097
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -745,6 +748,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _offsetDistance: 1
   _sizeOfInteractableArea: 1.2
+--- !u!1 &1499124506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1499124508}
+  - component: {fileID: 1499124507}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1499124507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499124506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b9d00b133ed9b42af170c402dbf0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1404858152}
+--- !u!4 &1499124508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499124506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9953626, y: 0.93698436, z: 0.033329893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2133919545
 GameObject:
   m_ObjectHideFlags: 3
