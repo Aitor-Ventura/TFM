@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class PickUpItem : MonoBehaviour
 {
+    public Item item;
+    public int count = 1;
+    
     [SerializeField] private float _speed = 5f;
     [SerializeField] private float _pickUpDistance = 1.5f;
     [SerializeField] private float _timeToLeave = 10f;
-    
+
     private Transform player;
 
     private void Start()
@@ -43,6 +46,14 @@ public class PickUpItem : MonoBehaviour
         
         if (distance < 0.1f)
         {
+            if (GameManager.Instance.inventoryContainer != null)
+            {
+                GameManager.Instance.inventoryContainer.AddItem(item, count);
+            }
+            else
+            {
+                Debug.LogWarning("No inventory has been found. Please attach an inventory to the GameManager.");
+            }
             Destroy(gameObject);
         }
     }
