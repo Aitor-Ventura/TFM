@@ -10,6 +10,8 @@ public class CharacterController2D : MonoBehaviour
     private Rigidbody2D rigidbody;
     private Vector2 motionVector;
     
+    public Vector2 lastMotionVector;
+    
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -18,7 +20,14 @@ public class CharacterController2D : MonoBehaviour
 
     private void Update()
     {
-        motionVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        motionVector = new Vector2(horizontal, vertical);
+
+        if (horizontal != 0 || vertical != 0)
+        {
+            lastMotionVector = new Vector2(horizontal, vertical).normalized;
+        }
     }
 
     private void FixedUpdate()
