@@ -6,6 +6,7 @@ using UnityEngine;
 public class InventoryController : MonoBehaviour
 {
     [SerializeField] private GameObject _inventoryPanel;
+    [SerializeField] private GameObject _toolbarPanel;
 
     private void Start()
     {
@@ -17,6 +18,7 @@ public class InventoryController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             _inventoryPanel.SetActive(!_inventoryPanel.activeInHierarchy);
+            _toolbarPanel.SetActive(!_toolbarPanel.activeInHierarchy);
         }
     }
 }
