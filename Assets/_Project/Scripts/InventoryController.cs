@@ -19,6 +19,7 @@ public class InventoryController : MonoBehaviour
         {
             _inventoryPanel.SetActive(!_inventoryPanel.activeInHierarchy);
             _toolbarPanel.SetActive(!_toolbarPanel.activeInHierarchy);
+            //test
         }
     }
 }
