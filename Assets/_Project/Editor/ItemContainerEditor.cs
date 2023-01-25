@@ -19,8 +19,7 @@ public class ItemContainerEditor : Editor
         {
             for (int i = 0; i < container.itemSlots.Count; i++)
             {
-                container.itemSlots[i].item = null;
-                container.itemSlots[i].count = 0;
+                container.itemSlots[i].Clear();
             }
         }
 

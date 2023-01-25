@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class InventoryButton : MonoBehaviour
+public class InventoryButton : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private UnityEngine.UI.Image _icon;
     [SerializeField] private TextMeshProUGUI _count;
@@ -18,15 +20,17 @@ public class InventoryButton : MonoBehaviour
 
     public void Set(ItemSlot slot)
     {
+        _icon.gameObject.SetActive(true);
         _icon.sprite = slot.item.icon;
         
         if (slot.item.stackable)
         {
+            _count.gameObject.SetActive(true);
             _count.text = slot.count.ToString();
         }
         else
         {
-            _count.text = "";
+            _count.gameObject.SetActive(false);
         }
     }
 
@@ -36,5 +40,12 @@ public class InventoryButton : MonoBehaviour
         _icon.gameObject.SetActive(false);
 
         _count.gameObject.SetActive(false);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        ItemContainer inventory = GameManager.Instance.inventoryContainer;
+        GameManager.Instance.itemDragAndDropController.OnInventoryButtonClicked(inventory.itemSlots[index]);
+        transform.parent.GetComponent<InventoryPanel>().ShowInventory();
     }
 }
