@@ -62,5 +62,6 @@ public class ItemContainer : ScriptableObject
                 itemSlot.item = item;
             }
         }
+        
     }
 }

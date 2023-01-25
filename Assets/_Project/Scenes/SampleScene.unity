@@ -2022,8 +2022,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pickUpDrop: {fileID: 4342156349358114985, guid: 27b7415662017a744bcbd3a8edf51425, type: 3}
-  _dropCount: 5
   _spread: 0.7
+  _item: {fileID: 11400000, guid: c67b7323cea00ba4e9103894ee0968f4, type: 2}
+  _dropCount: 5
+  _itemCountInOneDrop: 1
 --- !u!212 &1036357097
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3579,6 +3581,7 @@ GameObject:
   - component: {fileID: 1499124507}
   - component: {fileID: 1499124509}
   - component: {fileID: 1499124510}
+  - component: {fileID: 1499124511}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3709,6 +3712,19 @@ MonoBehaviour:
     item: {fileID: 0}
     count: 0
   _dragItemIcon: {fileID: 1038191333}
+--- !u!114 &1499124511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499124506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16d43291193c5e4cb5139b92ef2644a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpItemPrefab: {fileID: 4342156349358114985, guid: 27b7415662017a744bcbd3a8edf51425, type: 3}
 --- !u!224 &1499821018 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4498642610223000080, guid: cf3f31e0c7a5a154d91ca3dda0db2c89, type: 3}

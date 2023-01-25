@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -24,6 +25,22 @@ public class ItemDragAndDropController : MonoBehaviour
         if (_dragItemIcon.activeInHierarchy)
         {
             _dragItemIconRectTransform.position = Input.mousePosition;
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                if (!EventSystem.current.IsPointerOverGameObject())
+                {
+                    if (Camera.main == null) return;
+                    
+                    Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    worldPosition.z = 0;
+                    
+                    ItemSpawnManager.Instance.SpawnItem(worldPosition, _itemSlot.item, _itemSlot.count);
+                    
+                    _itemSlot.Clear();
+                    _dragItemIcon.SetActive(false);
+                }
+            }
         }
     }
 
