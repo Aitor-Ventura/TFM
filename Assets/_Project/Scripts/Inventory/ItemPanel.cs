@@ -2,11 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ItemPanel : MonoBehaviour
 {
-    public ItemContainer _inventory;
-    public List<InventoryButton> _buttons;
+    public ItemContainer inventory;
+    public List<InventoryButton> buttons;
 
     private void Start()
     {
@@ -26,23 +27,23 @@ public class ItemPanel : MonoBehaviour
 
     private void SetIndex()
     {
-        for (int i = 0; i < _inventory.itemSlots.Count && i < _buttons.Count; i++)
+        for (int i = 0; i < inventory.itemSlots.Count && i < buttons.Count; i++)
         {
-            _buttons[i].SetIndex(i);
+            buttons[i].SetIndex(i);
         }
     }
 
     public void ShowInventory()
     {
-        for (int i = 0; i < _inventory.itemSlots.Count && i < _buttons.Count; i++)
+        for (int i = 0; i < inventory.itemSlots.Count && i < buttons.Count; i++)
         {
-            if (_inventory.itemSlots[i].item == null)
+            if (inventory.itemSlots[i].item == null)
             {
-                _buttons[i].Clean();
+                buttons[i].Clean();
             }
             else
             {
-                _buttons[i].Set(_inventory.itemSlots[i]);
+                buttons[i].Set(inventory.itemSlots[i]);
             }
         }       
     }

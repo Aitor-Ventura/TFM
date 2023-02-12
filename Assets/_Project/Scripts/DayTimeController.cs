@@ -4,36 +4,37 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class DayTimeController : MonoBehaviour
 {
-    [SerializeField] private Color _nightLightColor;
-    [SerializeField] private Color _dayLightColor = Color.white;
-    [SerializeField] private AnimationCurve _nightTimeCurve;
-    [SerializeField] private float _timeScale = 60f;
-    [SerializeField] private TextMeshProUGUI _text;
-    [SerializeField] private Light2D _globalLight;
+    [SerializeField] private Color nightLightColor;
+    [SerializeField] private Color dayLightColor = Color.white;
+    [SerializeField] private AnimationCurve nightTimeCurve;
+    [SerializeField] private float timeScale = 60f;
+    [SerializeField] private TextMeshProUGUI text;
+    [SerializeField] private Light2D globalLight;
     
     private const float SECONDS_IN_DAY = 86400f;
-    private float currentTime;
-    private int days;
+    private float _currentTime;
+    private int _days;
     
-    public float Hours => currentTime / 3600f;
-    public float Minutes => (currentTime % 3600f) / 60f;
+    public float Hours => _currentTime / 3600f;
+    public float Minutes => (_currentTime % 3600f) / 60f;
 
     private void Update()
     {
-        currentTime += Time.deltaTime * _timeScale;
+        _currentTime += Time.deltaTime * timeScale;
 
         int hh = (int) Hours;
         int mm = (int) Minutes;
         
-        _text.SetText(hh.ToString("00") + ":" + mm.ToString("00"));
+        text.SetText(hh.ToString("00") + ":" + mm.ToString("00"));
         
-        _globalLight.color = Color.Lerp(_dayLightColor, _nightLightColor, _nightTimeCurve.Evaluate(Hours));
+        globalLight.color = Color.Lerp(dayLightColor, nightLightColor, nightTimeCurve.Evaluate(Hours));
 
-        if (currentTime > SECONDS_IN_DAY)
+        if (_currentTime > SECONDS_IN_DAY)
         {
             NextDay();
         }
@@ -41,7 +42,7 @@ public class DayTimeController : MonoBehaviour
 
     private void NextDay()
     {
-        currentTime = 0;
-        days += 1;
+        _currentTime = 0;
+        _days += 1;
     }
 }

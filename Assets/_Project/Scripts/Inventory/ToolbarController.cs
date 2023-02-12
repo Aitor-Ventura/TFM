@@ -2,14 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ToolbarController : MonoBehaviour
 {
     public Action<int> onChange;
     
-    [SerializeField] private int _toolbarSize = 11;
+    [SerializeField] private int toolbarSize = 11;
 
-    private int selectedTool;
+    private int _selectedTool;
 
     private void Update()
     {
@@ -18,20 +19,20 @@ public class ToolbarController : MonoBehaviour
         {
             if (delta > 0)
             {
-                selectedTool += 1;
-                selectedTool = selectedTool >= _toolbarSize ? 0 : selectedTool;
+                _selectedTool += 1;
+                _selectedTool = _selectedTool >= toolbarSize ? 0 : _selectedTool;
             }
             else
             {
-                selectedTool -= 1;
-                selectedTool = selectedTool < 0 ? _toolbarSize-1 : selectedTool;
+                _selectedTool -= 1;
+                _selectedTool = _selectedTool < 0 ? toolbarSize-1 : _selectedTool;
             }
-            onChange?.Invoke(selectedTool);
+            onChange?.Invoke(_selectedTool);
         }
     }
 
     public void Set(int id)
     {
-        selectedTool = id;
+        _selectedTool = id;
     }
 }

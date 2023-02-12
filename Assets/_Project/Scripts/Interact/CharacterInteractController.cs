@@ -2,20 +2,21 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CharacterInteractController : MonoBehaviour
 {
-    [SerializeField] private float _interactDistance = 1f;
-    [SerializeField] private float _sizeOfInteractableArea = 1.2f;
-    [SerializeField] private HighlightController _highlightController;
+    [SerializeField] private float interactDistance = 1f;
+    [SerializeField] private float sizeOfInteractableArea = 1.2f;
+    [SerializeField] private HighlightController highlightController;
     
-    private CharacterController2D characterController;
-    private Rigidbody2D rigidbody;
+    private CharacterController2D _characterController;
+    private Rigidbody2D _rigidbody;
 
     private void Awake()
     {
-        characterController = GetComponent<CharacterController2D>();
-        rigidbody = GetComponent<Rigidbody2D>();
+        _characterController = GetComponent<CharacterController2D>();
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -30,35 +31,35 @@ public class CharacterInteractController : MonoBehaviour
 
     private void Check()
     {
-        Vector2 position = rigidbody.position + characterController.lastMotionVector * _interactDistance;
+        Vector2 position = _rigidbody.position + _characterController.lastMotionVector * interactDistance;
         
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, _sizeOfInteractableArea);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
 
         foreach (var collider in colliders)
         {
             Interactable interactable = collider.GetComponent<Interactable>();
             if (interactable != null)
             {
-                _highlightController.Highlight(interactable.gameObject);
+                highlightController.Highlight(interactable.gameObject);
                 return;
             }
         }
         
-        _highlightController.Hide();
+        highlightController.Hide();
     }
 
     private void Interact()
     {
-        Vector2 position = rigidbody.position + characterController.lastMotionVector * _interactDistance;
+        Vector2 position = _rigidbody.position + _characterController.lastMotionVector * interactDistance;
         
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, _sizeOfInteractableArea);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
         
         foreach (var collider in colliders)
         {
             Interactable interactable = collider.GetComponent<Interactable>();
             if (interactable != null)
             {
-                interactable.Interact(characterController);
+                interactable.Interact(_characterController);
                 break;
             }
         }

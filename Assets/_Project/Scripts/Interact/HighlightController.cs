@@ -1,31 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class HighlightController : MonoBehaviour
 {
-    [SerializeField] private GameObject _highlighter;
+    [SerializeField] private GameObject highlighter;
 
-    private GameObject currentTarget;
+    private GameObject _currentTarget;
     
     public void Highlight(GameObject target)
     {
-        if (currentTarget == target) return;
+        if (_currentTarget == target) return;
         
-        currentTarget = target;
+        _currentTarget = target;
         Vector3 position = target.transform.position + Vector3.up * 0.5f; 
         Highlight(position);
     }
     
     public void Highlight(Vector3 position)
     {
-        _highlighter.SetActive(true);
-        _highlighter.transform.position = position;
+        highlighter.SetActive(true);
+        highlighter.transform.position = position;
     }
     
     public void Hide()
     {
-        currentTarget = null;
-        _highlighter.SetActive(false);
+        _currentTarget = null;
+        highlighter.SetActive(false);
     }
 }

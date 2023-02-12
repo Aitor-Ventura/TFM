@@ -2,23 +2,26 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.Tilemaps;
 
 public class TileMapReadController : MonoBehaviour
 {
-    [SerializeField] private Tilemap _tilemap;
-    [SerializeField] private List<TileData> _tileData;
+    [SerializeField] private Tilemap tilemap;
+    [SerializeField] private List<TileData> tileData;
 
-    private Dictionary<TileBase, TileData> dataFromTiles;
+    private Dictionary<TileBase, TileData> _dataFromTiles;
+    private Camera _camera;
 
     private void Start()
     {
-        dataFromTiles = new Dictionary<TileBase, TileData>();
-        foreach (var tileData in _tileData)
+        _camera = Camera.main;
+        _dataFromTiles = new Dictionary<TileBase, TileData>();
+        foreach (var tileData in tileData)
         {
             foreach (var tile in tileData.tiles)
             {
-                dataFromTiles.Add(tile, tileData);
+                _dataFromTiles.Add(tile, tileData);
             }
         }
     }
@@ -29,26 +32,26 @@ public class TileMapReadController : MonoBehaviour
         
         if (mousePosition)
         {
-            worldPosition = Camera.main.ScreenToWorldPoint(position);
+            worldPosition = _camera.ScreenToWorldPoint(position);
         }
         else
         {
             worldPosition = position;
         }
         
-        Vector3Int cellPosition = _tilemap.WorldToCell(worldPosition);
+        Vector3Int cellPosition = tilemap.WorldToCell(worldPosition);
         return cellPosition;
     }
     
     public TileBase GetTileBase(Vector3Int gridPosition)
     {
-        TileBase tile = _tilemap.GetTile(gridPosition);
+        TileBase tile = tilemap.GetTile(gridPosition);
         
         return tile;
     }
 
     public TileData GetTileData(TileBase tileBase)
     {
-        return dataFromTiles[tileBase];
+        return _dataFromTiles[tileBase];
     }
 }

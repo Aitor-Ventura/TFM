@@ -7,17 +7,26 @@ using UnityEngine.Tilemaps;
 
 public class MarkerManager : MonoBehaviour
 {
-    [SerializeField] private Tilemap _targetTileMap;
-    [SerializeField] private TileBase _tile;
-
     public Vector3Int markedCellPosition;
     
-    private Vector3Int oldCellPosition;
+    [SerializeField] private Tilemap targetTileMap;
+    [SerializeField] private TileBase tile;
+
+    private Vector3Int _oldCellPosition;
+    private bool _show;
 
     private void Update()
     {
-        _targetTileMap.SetTile(oldCellPosition, null);
-        _targetTileMap.SetTile(markedCellPosition, _tile);
-        oldCellPosition = markedCellPosition;
+        if (!_show) return;
+        
+        targetTileMap.SetTile(_oldCellPosition, null);
+        targetTileMap.SetTile(markedCellPosition, tile);
+        _oldCellPosition = markedCellPosition;
+    }
+
+    public void Show(bool selectable)
+    {
+        _show = selectable;
+        targetTileMap.gameObject.SetActive(_show);
     }
 }

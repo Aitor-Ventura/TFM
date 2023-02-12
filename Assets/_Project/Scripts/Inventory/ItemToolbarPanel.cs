@@ -3,30 +3,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
+using UnityEngine.Serialization;
 
 public class ItemToolbarPanel : ItemPanel
 {
-    [SerializeField] private ToolbarController _toolbarController;
+    [SerializeField] private ToolbarController toolbarController;
 
-    private int currentSelectedTool;
+    private int _currentSelectedTool;
 
     private void Start()
     {
         Init();
-        _toolbarController.onChange += Highlight;
+        toolbarController.onChange += Highlight;
         Highlight(0);
     }
 
     public override void OnClick(int id)
     {
-        _toolbarController.Set(id);
+        toolbarController.Set(id);
         Highlight(id);
     }
 
     public void Highlight(int id)
     {
-        _buttons[currentSelectedTool].Highlight(false);
-        currentSelectedTool = id;
-        _buttons[currentSelectedTool].Highlight(true);
+        buttons[_currentSelectedTool].Highlight(false);
+        _currentSelectedTool = id;
+        buttons[_currentSelectedTool].Highlight(true);
     }
 }

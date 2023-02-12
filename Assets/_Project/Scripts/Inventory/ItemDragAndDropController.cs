@@ -8,21 +8,21 @@ using UnityEngine.UI;
 
 public class ItemDragAndDropController : MonoBehaviour
 {
-    [SerializeField] private ItemSlot _itemSlot;
-    [SerializeField] private GameObject _dragItemIcon;
+    [SerializeField] private ItemSlot itemSlot;
+    [SerializeField] private GameObject dragItemIcon;
     
     private RectTransform _dragItemIconRectTransform;
     
     private void Start()
     {
-        _itemSlot = new ItemSlot();
-        _dragItemIconRectTransform = _dragItemIcon.GetComponent<RectTransform>();
-        _dragItemIcon.SetActive(false);
+        itemSlot = new ItemSlot();
+        _dragItemIconRectTransform = dragItemIcon.GetComponent<RectTransform>();
+        dragItemIcon.SetActive(false);
     }
 
     private void Update()
     {
-        if (_dragItemIcon.activeInHierarchy)
+        if (dragItemIcon.activeInHierarchy)
         {
             _dragItemIconRectTransform.position = Input.mousePosition;
 
@@ -35,10 +35,10 @@ public class ItemDragAndDropController : MonoBehaviour
                     Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     worldPosition.z = 0;
                     
-                    ItemSpawnManager.Instance.SpawnItem(worldPosition, _itemSlot.item, _itemSlot.count);
+                    ItemSpawnManager.Instance.SpawnItem(worldPosition, itemSlot.item, itemSlot.count);
                     
-                    _itemSlot.Clear();
-                    _dragItemIcon.SetActive(false);
+                    itemSlot.Clear();
+                    dragItemIcon.SetActive(false);
                 }
             }
         }
@@ -47,9 +47,9 @@ public class ItemDragAndDropController : MonoBehaviour
 
     public void OnInventoryButtonClicked(ItemSlot inventoryItemSlot)
     {
-        if (_itemSlot.item == null)
+        if (itemSlot.item == null)
         {
-            _itemSlot.Copy(inventoryItemSlot);
+            itemSlot.Copy(inventoryItemSlot);
             inventoryItemSlot.Clear();
         }
         else
@@ -57,8 +57,8 @@ public class ItemDragAndDropController : MonoBehaviour
             Item item = inventoryItemSlot.item;
             int count = inventoryItemSlot.count;
             
-            inventoryItemSlot.Copy(_itemSlot);
-            _itemSlot.Set(item, count);
+            inventoryItemSlot.Copy(itemSlot);
+            itemSlot.Set(item, count);
         }
 
         UpdateIcon();
@@ -66,14 +66,14 @@ public class ItemDragAndDropController : MonoBehaviour
 
     private void UpdateIcon()
     {
-        if (_itemSlot.item == null)
+        if (itemSlot.item == null)
         {
-            _dragItemIcon.SetActive(false);
+            dragItemIcon.SetActive(false);
         }
         else
         {
-            _dragItemIcon.SetActive(true);
-            _dragItemIcon.GetComponent<Image>().sprite = _itemSlot.item.icon;
+            dragItemIcon.SetActive(true);
+            dragItemIcon.GetComponent<Image>().sprite = itemSlot.item.icon;
         }
     }
 }

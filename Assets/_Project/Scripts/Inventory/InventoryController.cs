@@ -2,23 +2,24 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class InventoryController : MonoBehaviour
 {
-    [SerializeField] private GameObject _inventoryPanel;
-    [SerializeField] private GameObject _toolbarPanel;
+    [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private GameObject toolbarPanel;
 
     private void Start()
     {
-        _inventoryPanel.SetActive(false);
+        inventoryPanel.SetActive(false);
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            _inventoryPanel.SetActive(!_inventoryPanel.activeInHierarchy);
-            _toolbarPanel.SetActive(!_toolbarPanel.activeInHierarchy);
+            inventoryPanel.SetActive(!inventoryPanel.activeInHierarchy);
+            toolbarPanel.SetActive(!toolbarPanel.activeInHierarchy);
             //test
         }
     }

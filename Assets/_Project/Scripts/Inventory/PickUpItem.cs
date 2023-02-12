@@ -2,21 +2,22 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PickUpItem : MonoBehaviour
 {
     public Item item;
     public int count = 1;
     
-    [SerializeField] private float _speed = 5f;
-    [SerializeField] private float _pickUpDistance = 1.5f;
-    [SerializeField] private float _timeToLeave = 10f;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float pickUpDistance = 1.5f;
+    [SerializeField] private float timeToLeave = 10f;
 
-    private Transform player;
+    private Transform _player;
 
     private void Start()
     {
-        player = GameManager.Instance.player.transform;
+        _player = GameManager.Instance.player.transform;
     }
 
     public void SetItem(Item item, int count)
@@ -36,8 +37,8 @@ public class PickUpItem : MonoBehaviour
 
     private void ManageDespawn()
     {
-        _timeToLeave -= Time.deltaTime;
-        if (_timeToLeave < 0)
+        timeToLeave -= Time.deltaTime;
+        if (timeToLeave < 0)
         {
             Destroy(gameObject);
         }
@@ -45,13 +46,13 @@ public class PickUpItem : MonoBehaviour
     
     private void MoveToPlayer()
     {
-        float distance = Vector3.Distance(transform.position, player.position);
-        if (distance > _pickUpDistance)
+        float distance = Vector3.Distance(transform.position, _player.position);
+        if (distance > pickUpDistance)
         {
             return;
         }
         
-        transform.position = Vector3.MoveTowards(transform.position, player.position, _speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, _player.position, speed * Time.deltaTime);
         
         if (distance < 0.1f)
         {

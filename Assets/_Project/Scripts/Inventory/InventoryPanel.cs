@@ -8,7 +8,7 @@ public class InventoryPanel : ItemPanel
 {
     public override void OnClick(int id)
     {
-        GameManager.Instance.itemDragAndDropController.OnInventoryButtonClicked(_inventory.itemSlots[id]);
+        GameManager.Instance.itemDragAndDropController.OnInventoryButtonClicked(inventory.itemSlots[id]);
         ShowInventory();
     }
 }

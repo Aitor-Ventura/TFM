@@ -3,26 +3,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 
 public class CharacterController2D : MonoBehaviour
 {
-    [SerializeField] private float _speed;
-    private Rigidbody2D rigidbody;
-    private Vector2 motionVector;
-    
     public Vector2 lastMotionVector;
     
+    [SerializeField] private float speed;
+    
+    private Rigidbody2D _rigidbody;
+    private Vector2 _motionVector;
+
     private void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
-        rigidbody.gravityScale = 0;
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody.gravityScale = 0;
     }
 
     private void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-        motionVector = new Vector2(horizontal, vertical);
+        _motionVector = new Vector2(horizontal, vertical);
 
         if (horizontal != 0 || vertical != 0)
         {
@@ -37,6 +39,6 @@ public class CharacterController2D : MonoBehaviour
 
     private void Move()
     {
-        rigidbody.velocity = motionVector * _speed;
+        _rigidbody.velocity = _motionVector * speed;
     }
 }
