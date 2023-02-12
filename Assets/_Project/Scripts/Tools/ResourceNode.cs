@@ -4,8 +4,11 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class TreeCuttable : ToolHit
+[RequireComponent(typeof(BoxCollider2D))]
+public class ResourceNode : ToolHit
 {
+    [SerializeField] private ResourceNodeType nodeType;
+    
     [SerializeField] private GameObject pickUpDrop;
     [SerializeField] private float spread = 0.7f;
     
@@ -23,5 +26,10 @@ public class TreeCuttable : ToolHit
         }
         
         Destroy(gameObject);
+    }
+    
+    public override bool CanBeHit(List<ResourceNodeType> canBeHit)
+    {
+        return canBeHit.Contains(nodeType);
     }
 }

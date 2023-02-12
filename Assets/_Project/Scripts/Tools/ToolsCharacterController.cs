@@ -26,11 +26,14 @@ public class ToolsCharacterController : MonoBehaviour
     private Vector3Int _selectedTile;
     private bool _selectable;
     private Camera _camera;
+    
+    private ToolbarController _toolbarController;
 
     private void Awake()
     {
         _characterController = GetComponent<CharacterController2D>();
         _rigidbody = GetComponent<Rigidbody2D>();
+        _toolbarController = GetComponent<ToolbarController>();
     }
     
     private void Start()
@@ -72,20 +75,14 @@ public class ToolsCharacterController : MonoBehaviour
     private bool UseToolWorld()
     {
         Vector2 position = _rigidbody.position + _characterController.lastMotionVector * offsetDistance;
+
+        Item item = _toolbarController.GetItem;
         
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(position, sizeOfInteractableArea);
+        if (item == null || item.onAction == null) return false;
 
-        foreach (Collider2D collider in colliders)
-        {
-            ToolHit hit = collider.GetComponent<ToolHit>();
-            if (hit != null)
-            {
-                hit.Hit();
-                return true;
-            }
-        }
-
-        return false;
+        bool complete = item.onAction.OnApply(position);
+        
+        return complete;
     }
 
     private void UseToolGrid()
