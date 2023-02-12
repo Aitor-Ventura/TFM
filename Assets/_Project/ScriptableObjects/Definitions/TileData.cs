@@ -1,18 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
-public class TileData : MonoBehaviour
+[CreateAssetMenu(menuName = "Data/TileData")]
+public class TileData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public List<TileBase> tiles;
+    public bool plowable;
 }

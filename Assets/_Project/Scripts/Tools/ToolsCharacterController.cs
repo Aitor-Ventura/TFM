@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
+using UnityEngine.Timeline;
 using Vector2 = UnityEngine.Vector2;
 
 public class ToolsCharacterController : MonoBehaviour
 {
     [SerializeField] private float _offsetDistance = 1f;
-    [SerializeField] private float _sizeOfInteractableArea = 1.2f; 
+    [SerializeField] private float _sizeOfInteractableArea = 1.2f;
+
+    [SerializeField] private MarkerManager _markerManager;
+    [SerializeField] private TileMapReadController _tileMapReadController;
     
     private CharacterController2D characterController;
     private Rigidbody2D rigidbody;
@@ -21,10 +25,17 @@ public class ToolsCharacterController : MonoBehaviour
 
     private void Update()
     {
+        Marker();
         if (Input.GetMouseButtonDown(0))
         {
             UseTool();
         }
+    }
+
+    private void Marker()
+    {
+        Vector3Int gridPosition = _tileMapReadController.GetGridPosition(Input.mousePosition, true);
+        _markerManager.markedCellPosition = gridPosition;
     }
 
     private void UseTool()
