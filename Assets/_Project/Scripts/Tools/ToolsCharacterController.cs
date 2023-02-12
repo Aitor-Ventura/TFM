@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.Tilemaps;
 using UnityEngine.Timeline;
 using Vector2 = UnityEngine.Vector2;
 
@@ -15,6 +16,9 @@ public class ToolsCharacterController : MonoBehaviour
     [SerializeField] private MarkerManager markerManager;
     [SerializeField] private TileMapReadController tileMapReadController;
     [SerializeField] private float maxDistance = 1.5f;
+
+    [SerializeField] private CropsManager cropsManager;
+    [SerializeField] private TileData plowableTiles;
     
     private CharacterController2D _characterController;
     private Rigidbody2D _rigidbody;
@@ -41,7 +45,8 @@ public class ToolsCharacterController : MonoBehaviour
         Marker();
         if (Input.GetMouseButtonDown(0))
         {
-            UseTool();
+            if (UseToolWorld()) return;
+            UseToolGrid();
         }
     }
 
@@ -64,7 +69,7 @@ public class ToolsCharacterController : MonoBehaviour
         markerManager.markedCellPosition = _selectedTile;
     }
 
-    private void UseTool()
+    private bool UseToolWorld()
     {
         Vector2 position = _rigidbody.position + _characterController.lastMotionVector * offsetDistance;
         
@@ -76,8 +81,29 @@ public class ToolsCharacterController : MonoBehaviour
             if (hit != null)
             {
                 hit.Hit();
-                break;
+                return true;
             }
+        }
+
+        return false;
+    }
+
+    private void UseToolGrid()
+    {
+        if (!_selectable) return;
+        
+        TileBase tileBase = tileMapReadController.GetTileBase(_selectedTile);
+        TileData tileData = tileMapReadController.GetTileData(tileBase);
+
+        if (tileData != plowableTiles) return;
+        
+        if (cropsManager.Check(_selectedTile))
+        {
+            cropsManager.Seed(_selectedTile);
+        }
+        else
+        {
+            cropsManager.Plow(_selectedTile);
         }
     }
 }
