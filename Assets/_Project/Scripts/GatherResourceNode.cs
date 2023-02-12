@@ -18,11 +18,10 @@ public class GatherResourceNode : ToolAction
             
             if (hit != null)
             {
-                if (hit.CanBeHit(canHitNodesOfType) == true)
-                {
-                    hit.Hit();
-                    return true;
-                }
+                if (!hit.CanBeHit(canHitNodesOfType)) return false;
+                
+                hit.Hit();
+                return true;
             }
         }
         
