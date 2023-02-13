@@ -17,9 +17,6 @@ public class ToolsCharacterController : MonoBehaviour
     [SerializeField] private TileMapReadController tileMapReadController;
     [SerializeField] private float maxDistance = 1.5f;
 
-    [SerializeField] private CropsManager cropsManager;
-    [SerializeField] private TileData plowableTiles;
-    
     private CharacterController2D _characterController;
     private Rigidbody2D _rigidbody;
 
@@ -82,25 +79,30 @@ public class ToolsCharacterController : MonoBehaviour
 
         bool complete = item.onAction.OnApply(position);
         
+        if (complete)
+        {
+            if (item.onItemUsedAction == null) return false;
+            item.onItemUsedAction.OnItemUsed(item, GameManager.Instance.inventoryContainer);
+        }
+        
         return complete;
     }
 
     private void UseToolGrid()
     {
         if (!_selectable) return;
-        
-        TileBase tileBase = tileMapReadController.GetTileBase(_selectedTile);
-        TileData tileData = tileMapReadController.GetTileData(tileBase);
 
-        if (tileData != plowableTiles) return;
+        Item item = _toolbarController.GetItem;
         
-        if (cropsManager.Check(_selectedTile))
+        if (item == null) return;
+        if (item.onTileMapAction == null) return;
+
+        bool complete = item.onTileMapAction.OnApplyToTileMap(_selectedTile, tileMapReadController);
+
+        if (complete)
         {
-            cropsManager.Seed(_selectedTile);
-        }
-        else
-        {
-            cropsManager.Plow(_selectedTile);
+            if (item.onItemUsedAction == null) return;
+            item.onItemUsedAction.OnItemUsed(item, GameManager.Instance.inventoryContainer);
         }
     }
 }
