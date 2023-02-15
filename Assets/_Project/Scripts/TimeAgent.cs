@@ -9,6 +9,11 @@ public class TimeAgent : MonoBehaviour
     
     private void Start()
     {
+        Init();
+    }
+
+    public void Init()
+    {
         GameManager.Instance.dayTimeController.Subscribe(this);
     }
 

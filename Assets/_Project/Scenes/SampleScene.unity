@@ -6053,6 +6053,7 @@ MonoBehaviour:
   plowed: {fileID: 11400000, guid: 252a0fc0e3065b04f995094ca626ad73, type: 2}
   seeded: {fileID: 11400000, guid: ace875da84da22944a9b72d8ad66ffee, type: 2}
   targetTileMap: {fileID: 1045046476}
+  cropsSpritePrefab: {fileID: 376405779027486318, guid: 9e506c8e5ff855d4b8660d43420035b9, type: 3}
 --- !u!224 &1499821018 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4498642610223000080, guid: cf3f31e0c7a5a154d91ca3dda0db2c89, type: 3}
