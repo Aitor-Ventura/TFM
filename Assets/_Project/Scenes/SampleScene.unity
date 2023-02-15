@@ -3416,6 +3416,8 @@ GameObject:
   - component: {fileID: 1036357097}
   - component: {fileID: 1036357096}
   - component: {fileID: 1036357099}
+  - component: {fileID: 1036357101}
+  - component: {fileID: 1036357100}
   m_Layer: 0
   m_Name: SupposedTree
   m_TagString: Untagged
@@ -3534,6 +3536,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1036357100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036357095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2846e569b56b78b429c2b2b7f3dd29df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: f96b0269ede1e164094d91f55d88c616, type: 2}
+  dropCount: 1
+  spread: 2
+  probability: 0.5
+--- !u!114 &1036357101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036357095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2e8bc22bb279043bcb5ad68ca4bd7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1038191333
 GameObject:
   m_ObjectHideFlags: 0
@@ -5841,6 +5871,7 @@ MonoBehaviour:
   player: {fileID: 1404858152}
   inventoryContainer: {fileID: 11400000, guid: 9ba0add98d58d844fb9ee7b180038cc9, type: 2}
   itemDragAndDropController: {fileID: 1499124510}
+  dayTimeController: {fileID: 1499124509}
 --- !u!4 &1499124508
 Transform:
   m_ObjectHideFlags: 0
@@ -6007,9 +6038,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cropsManager: {fileID: 1499124514}
   tilemap: {fileID: 1530282708}
-  tileData:
-  - {fileID: 11400000, guid: fdbb2923adc08944fa729abac806c452, type: 2}
-  - {fileID: 11400000, guid: 9f63b90f1c7d63e418fa7949a35b5559, type: 2}
 --- !u!114 &1499124514
 MonoBehaviour:
   m_ObjectHideFlags: 0
