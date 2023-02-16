@@ -26,20 +26,16 @@ public class CropsManager : TimeAgent
         foreach (CropTile cropTile in _crops.Values)
         {
             if (cropTile.crop == null) continue;
-            
-            cropTile.growTimer += 1;
+            if (cropTile.Complete) continue;
 
+            cropTile.growTimer += 1;
+            
             if (cropTile.growTimer >= cropTile.crop.growthStageTime[cropTile.growStage])
             {
                 cropTile.renderer.gameObject.SetActive(true);
                 cropTile.renderer.sprite = cropTile.crop.sprites[cropTile.growStage];
                 
                 cropTile.growStage += 1;
-            }
-            
-            if (cropTile.growTimer >= cropTile.crop.timeToGrow)
-            {
-                cropTile.crop = null;
             }
         }
     }
@@ -77,6 +73,22 @@ public class CropsManager : TimeAgent
         
         targetTileMap.SetTile(position, plowed);
     }
+
+    public void PickUp(Vector3Int gridPosition)
+    {
+        Vector2Int position = (Vector2Int)gridPosition;
+        if (_crops.ContainsKey(position) == false) return;
+        
+        CropTile cropTile = _crops[position];
+
+        if (cropTile.Complete)
+        {
+            ItemSpawnManager.Instance.SpawnItem(targetTileMap.CellToWorld(gridPosition), cropTile.crop.yield, cropTile.crop.count);
+            
+            targetTileMap.SetTile(gridPosition, plowed);
+            cropTile.Harvested();
+        }
+    }
 }
 
 public class CropTile
@@ -85,4 +97,21 @@ public class CropTile
     public int growStage;
     public Crop crop;
     public SpriteRenderer renderer;
+
+    public bool Complete
+    {
+        get
+        {
+            if (crop == null) return false;
+            return growTimer >= crop.timeToGrow;
+        }
+    }
+
+    public void Harvested()
+    {
+        growTimer = 0;
+        growStage = 0;
+        crop = null;
+        renderer.gameObject.SetActive(false);
+    }
 }

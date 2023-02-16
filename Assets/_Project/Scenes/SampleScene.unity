@@ -5565,6 +5565,7 @@ MonoBehaviour:
   markerManager: {fileID: 1092877063}
   tileMapReadController: {fileID: 1499124513}
   maxDistance: 1.5
+  onTilePickuUp: {fileID: 11400000, guid: e26780add8d8ad546ab6c36f1dea5694, type: 2}
 --- !u!114 &1404858159
 MonoBehaviour:
   m_ObjectHideFlags: 0

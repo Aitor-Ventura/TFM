@@ -17,6 +17,8 @@ public class ToolsCharacterController : MonoBehaviour
     [SerializeField] private TileMapReadController tileMapReadController;
     [SerializeField] private float maxDistance = 1.5f;
 
+    [SerializeField] private ToolAction onTilePickuUp;
+
     private CharacterController2D _characterController;
     private Rigidbody2D _rigidbody;
 
@@ -93,8 +95,12 @@ public class ToolsCharacterController : MonoBehaviour
         if (!_selectable) return;
 
         Item item = _toolbarController.GetItem;
-        
-        if (item == null) return;
+
+        if (item == null)
+        {
+            PickUpTile();
+            return;
+        }
         if (item.onTileMapAction == null) return;
 
         bool complete = item.onTileMapAction.OnApplyToTileMap(_selectedTile, tileMapReadController, item);
@@ -104,5 +110,12 @@ public class ToolsCharacterController : MonoBehaviour
             if (item.onItemUsedAction == null) return;
             item.onItemUsedAction.OnItemUsed(item, GameManager.Instance.inventoryContainer);
         }
+    }
+
+    private void PickUpTile()
+    {
+        if (onTilePickuUp == null) return;
+
+        onTilePickuUp.OnApplyToTileMap(_selectedTile, tileMapReadController, null);
     }
 }
