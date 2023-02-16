@@ -7,9 +7,12 @@ using UnityEngine;
 public class ItemContainer : ScriptableObject
 {
     public List<ItemSlot> itemSlots;
+    public bool isDirty;
 
     public void AddItem(Item item, int count = 1)
     {
+        isDirty = true;
+        
         if (item.stackable)
         {
             ItemSlot itemSlot = itemSlots.Find(x => x.item == item);
@@ -41,6 +44,8 @@ public class ItemContainer : ScriptableObject
 
     public void Remove(Item itemToRemove, int count = 1)
     {
+        isDirty = true;
+        
         if (itemToRemove.stackable)
         {
             ItemSlot itemSlot = itemSlots.Find(x => x.item == itemToRemove);

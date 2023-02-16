@@ -9,19 +9,27 @@ public class ItemPanel : MonoBehaviour
     public ItemContainer inventory;
     public List<InventoryButton> buttons;
 
+    private void OnEnable()
+    {
+        ShowInventory();
+    }
+    
     private void Start()
     {
         Init();
     }
 
+    private void LateUpdate()
+    {
+        if (!inventory.isDirty) return;
+        
+        ShowInventory(); 
+        inventory.isDirty = false;
+    }
+
     public void Init()
     {
         SetIndex();
-        ShowInventory();
-    }
-
-    private void OnEnable()
-    {
         ShowInventory();
     }
 
