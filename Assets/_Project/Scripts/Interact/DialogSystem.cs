@@ -8,6 +8,11 @@ using UnityEngine.UI;
 
 public class DialogSystem : MonoBehaviour
 {
+    [Header("Canvases references")] 
+    [SerializeField] private Canvas inventoryCanvas;
+    [SerializeField] private Canvas toolbarCanvas;
+    [SerializeField] private Canvas dayTimeTextCanvas;
+    
     [SerializeField] private TextMeshProUGUI targetText;
     [SerializeField] private TextMeshProUGUI nameText;
     [SerializeField] private Image portraitImage;
@@ -110,5 +115,8 @@ public class DialogSystem : MonoBehaviour
     private void Show(bool active)
     {
         gameObject.SetActive(active);
+        inventoryCanvas.gameObject.SetActive(!active);
+        toolbarCanvas.gameObject.SetActive(!active);
+        dayTimeTextCanvas.gameObject.SetActive(!active);
     }
 }

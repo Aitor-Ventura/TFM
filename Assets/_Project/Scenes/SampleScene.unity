@@ -4906,6 +4906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b7ee066d796b6a45afd2cdc7f28ec75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryCanvas: {fileID: 1337549202}
+  toolbarCanvas: {fileID: 472027528}
+  dayTimeTextCanvas: {fileID: 479450076}
   targetText: {fileID: 836934096}
   nameText: {fileID: 773022520}
   portraitImage: {fileID: 625325602}
