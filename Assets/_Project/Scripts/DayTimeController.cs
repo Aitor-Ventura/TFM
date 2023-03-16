@@ -20,7 +20,7 @@ public class DayTimeController : MonoBehaviour
     private const float TIMEAGENT_CHUNK_TIME = 900f;
     
     private float _currentTime;
-    
+
     private int _oldPhase;
     private int _days;
 
