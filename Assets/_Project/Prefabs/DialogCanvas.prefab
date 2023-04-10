@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NAME SURNAME SURNAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 825e684f8d6782d44b1cef295d17e302, type: 2}
+  m_sharedMaterial: {fileID: -4476007813368011655, guid: 825e684f8d6782d44b1cef295d17e302, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -480,8 +480,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: TEXT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 825e684f8d6782d44b1cef295d17e302, type: 2}
+  m_sharedMaterial: {fileID: -4476007813368011655, guid: 825e684f8d6782d44b1cef295d17e302, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 26.06604, y: 88.9937, z: 26.39258, w: 28.013779}
+  m_margin: {x: 26.06604, y: 95.01903, z: 26.39258, w: 32.83403}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
