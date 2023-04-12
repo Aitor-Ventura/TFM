@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4565ba0c237d9a140a655eb241420891
+guid: a74baf3278074f448b7329d8f336dfb2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Male_0
+      name: Guayota_0
       rect:
         serializedVersion: 2
         x: 9
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f721828209caab4bbf954ae81f1b404
-      internalID: -1835006199
+      spriteID: 6d6eab38e2ea81f4c9d0e76073c4d418
+      internalID: 1329363083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_1
+      name: Guayota_1
       rect:
         serializedVersion: 2
         x: 42
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b020b88a564bca843bf99330dc4c9ea8
-      internalID: -248510256
+      spriteID: 98e736381b84ae14abfdfbcd21e38ffe
+      internalID: 617634020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_2
+      name: Guayota_2
       rect:
         serializedVersion: 2
         x: 74
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a88ede28c044aa4a8151afcf8934756
-      internalID: 1758144156
+      spriteID: c7c348dc1856b0a4282fae152ab676d7
+      internalID: 401124941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_3
+      name: Guayota_3
       rect:
         serializedVersion: 2
         x: 106
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f14e9651fbd4e94438bdf7cee2ee767f
-      internalID: -52470883
+      spriteID: 89df03681118aa248bba118c9729eb8c
+      internalID: 6543920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_4
+      name: Guayota_4
       rect:
         serializedVersion: 2
         x: 137
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aef22457f1588704ca1eb57236449c11
-      internalID: -727819118
+      spriteID: a88b3a147fd45d744bad5c5d46fa0a40
+      internalID: 1768279141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_5
+      name: Guayota_5
       rect:
         serializedVersion: 2
         x: 169
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fc8466cd3e8bef47804b3c45d530fa2
-      internalID: 1079270772
+      spriteID: f74826cb33e30e84289a56858269d58c
+      internalID: -225805710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_6
+      name: Guayota_6
       rect:
         serializedVersion: 2
         x: 201
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b5c27f3f314143458b02683aa2085d3
-      internalID: -1633928583
+      spriteID: 5dd34d8d7f95cc64d9c91826b5cb793a
+      internalID: 199403404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_7
+      name: Guayota_7
       rect:
         serializedVersion: 2
         x: 234
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 636a8575d4677c647a90881de932ffe2
-      internalID: 2050837550
+      spriteID: e1b9c3ea75c2d6e4a97286866d966bde
+      internalID: 1053410957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_8
+      name: Guayota_8
       rect:
         serializedVersion: 2
         x: 10
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 693b5736ef7a13f41a223c7b672a4a7f
-      internalID: 1403033787
+      spriteID: 89ede07325db9f84bbb2007bf342b052
+      internalID: 294647610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_9
+      name: Guayota_9
       rect:
         serializedVersion: 2
         x: 41
@@ -308,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a5ca2c5641c28140a022665d54f6946
-      internalID: 560359073
+      spriteID: 0084112aa0b7c2246acff2fc24eb6f53
+      internalID: -1325525098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_10
+      name: Guayota_10
       rect:
         serializedVersion: 2
         x: 73
@@ -329,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361d7850327694c4e8f9e3bcdc387e3e
-      internalID: 2132837855
+      spriteID: d33c01345f89f774a95591ff06ee89a0
+      internalID: 861338574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_11
+      name: Guayota_11
       rect:
         serializedVersion: 2
         x: 106
@@ -350,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf1a9dad33b6c434183156e01006e6fa
-      internalID: -633143048
+      spriteID: e6599ee3a21898d42b125e0e32a5ae4b
+      internalID: 1196187141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_12
+      name: Guayota_12
       rect:
         serializedVersion: 2
         x: 138
@@ -371,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 253eb6397d27da9479b617f8efea377e
-      internalID: 703935624
+      spriteID: dee833ab722ac5b4fba710a8c9b3e733
+      internalID: -869058743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_13
+      name: Guayota_13
       rect:
         serializedVersion: 2
         x: 170
@@ -392,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0464afa069c2b044dac8f4dfbb4ca133
-      internalID: -480551188
+      spriteID: 1d41c8074eb017b4b99151c71868890d
+      internalID: 785469479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_14
+      name: Guayota_14
       rect:
         serializedVersion: 2
         x: 202
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 618b7417b1fba5f4a9d469cdfd7b292d
-      internalID: -1596343872
+      spriteID: e281b00f3fc0d2e4988e657bd6d4577d
+      internalID: -704116187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_15
+      name: Guayota_15
       rect:
         serializedVersion: 2
         x: 234
@@ -434,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fc101249cd80704f8a0efb1cf6e8339
-      internalID: 436895403
+      spriteID: 24a824a59e743904396e0705bbc02d8d
+      internalID: 1205633167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_16
+      name: Guayota_16
       rect:
         serializedVersion: 2
         x: 10
@@ -455,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6505f8ccf4bb4cb4c978da064dcd148a
-      internalID: -697374055
+      spriteID: efd8cc4df8bb84244be1a096ea47e965
+      internalID: -11534397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_17
+      name: Guayota_17
       rect:
         serializedVersion: 2
         x: 42
@@ -476,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72948bc8b5b054245a79eb9103936265
-      internalID: -132951311
+      spriteID: ae699227b4b499144990c614de15b079
+      internalID: 949947872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_18
+      name: Guayota_18
       rect:
         serializedVersion: 2
         x: 73
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 437beeca4050b1e419ea9789fc7a9eb8
-      internalID: 179635634
+      spriteID: 0575be53ca5691f4db37f5e44680a9dd
+      internalID: 1988839833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_19
+      name: Guayota_19
       rect:
         serializedVersion: 2
         x: 106
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edadd5cca86aeaa4aa3e23b54bd89379
-      internalID: -1233604150
+      spriteID: 9213c57e1f88c23449218bd0095f71dd
+      internalID: -175900144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_20
+      name: Guayota_20
       rect:
         serializedVersion: 2
         x: 138
@@ -539,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff4b3eb4eb91c94c81219b8b1562a4e
-      internalID: 2042889863
+      spriteID: e45d838c14c467842804efb787444ad1
+      internalID: -502228659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_21
+      name: Guayota_21
       rect:
         serializedVersion: 2
         x: 170
@@ -560,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a113b0ebd72e22d4bbeaf6ab1270bec6
-      internalID: -1302399399
+      spriteID: 47f055a12bd75834589dc1eeb1d26569
+      internalID: 147722628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_22
+      name: Guayota_22
       rect:
         serializedVersion: 2
         x: 202
@@ -581,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ddd3090f7380104983e564bc1820ad4
-      internalID: -78894392
+      spriteID: 0037e787bb1bbc744af0d92021b18dda
+      internalID: 1315919373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_23
+      name: Guayota_23
       rect:
         serializedVersion: 2
         x: 234
@@ -602,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56917e832a15bdd409cd842692eec873
-      internalID: -1825361054
+      spriteID: bee7fefb09e039543855a254d3156742
+      internalID: 1608105741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_24
+      name: Guayota_24
       rect:
         serializedVersion: 2
         x: 10
@@ -623,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c592c7877525fd24aa2b7dc7e9603e28
-      internalID: 1987940751
+      spriteID: b91dd171ee31db3499a475f5f720d9c8
+      internalID: 1346963947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_25
+      name: Guayota_25
       rect:
         serializedVersion: 2
         x: 42
@@ -644,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2696529a85428594783595a7828c6e47
-      internalID: 328244529
+      spriteID: 13d5ea8a8f4aacc42bb09ac7399554c1
+      internalID: 1446655940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_26
+      name: Guayota_26
       rect:
         serializedVersion: 2
         x: 74
@@ -665,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c5ecff663464b640b2a0838e9c00c28
-      internalID: -1503170271
+      spriteID: df239248b7011344594fae46bfa300ef
+      internalID: -1698267112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_27
+      name: Guayota_27
       rect:
         serializedVersion: 2
         x: 106
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ea86f9bf4b0f4b409575fbd0b0bdf98
-      internalID: -133980685
+      spriteID: 04b360c76ac727943982456ef8ad6f6d
+      internalID: -817536490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_28
+      name: Guayota_28
       rect:
         serializedVersion: 2
         x: 138
@@ -707,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37ea2b75e316d6c4096152a20a11d9cf
-      internalID: 407718305
+      spriteID: b058699a230af21499fc1e18c2d539c3
+      internalID: 490858028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_29
+      name: Guayota_29
       rect:
         serializedVersion: 2
         x: 169
@@ -728,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d117982305f959f4bbd325ba52f1b3f0
-      internalID: -1609568781
+      spriteID: 838039b1b34748147bb739ceb3ad001c
+      internalID: 1268731851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_30
+      name: Guayota_30
       rect:
         serializedVersion: 2
         x: 200
@@ -749,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d1da76ae219724db41387cb427d513
-      internalID: 92538331
+      spriteID: 48cee5672ceb6fb4cacda2614d441101
+      internalID: -1481538562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_31
+      name: Guayota_31
       rect:
         serializedVersion: 2
         x: 233
@@ -770,14 +770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc5277e0622bed74194c5bd30d2a5ddc
-      internalID: 1136701975
+      spriteID: 8972f53657fd49940b1c33ab8ce1829f
+      internalID: 741576653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_32
+      name: Guayota_32
       rect:
         serializedVersion: 2
         x: 9
@@ -791,14 +791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe3b1f0a64f833449f04afa430bf23a
-      internalID: 674693371
+      spriteID: eebdb69aaf9b31b439a2563a37f46046
+      internalID: -1942586544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_33
+      name: Guayota_33
       rect:
         serializedVersion: 2
         x: 41
@@ -812,14 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e92b8b8d447de547bb73e03b261e09a
-      internalID: 599819492
+      spriteID: 7675d234585ea9446ae26d9ded276deb
+      internalID: 2083749214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_34
+      name: Guayota_34
       rect:
         serializedVersion: 2
         x: 74
@@ -833,14 +833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5555e74667dce3f469e7dc26555f336a
-      internalID: -360711332
+      spriteID: b56bbd6eb77369c49b5106746ac2a89a
+      internalID: 1119484655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_35
+      name: Guayota_35
       rect:
         serializedVersion: 2
         x: 106
@@ -854,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf36d8e8e56b37648aee75d403bd9d45
-      internalID: -1405287247
+      spriteID: 88077aa7d6ebcb443ae9710198a2091c
+      internalID: 706738419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_36
+      name: Guayota_36
       rect:
         serializedVersion: 2
         x: 138
@@ -875,35 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14775b180efbfb44b6c054f58813a2e
-      internalID: -769676949
+      spriteID: 0076d8a83874c774fac0f088b6d59f69
+      internalID: 1648127107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_37
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 1409
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49a365df94c378e47804e8314a8c384f
-      internalID: -607687118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male_38
+      name: Guayota_37
       rect:
         serializedVersion: 2
         x: 10
@@ -917,14 +896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cfe28eb2babdf4458eedb8b906d3cb9
-      internalID: 699937762
+      spriteID: 7ed45b216031332479f9104875db138d
+      internalID: 331291617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_39
+      name: Guayota_38
       rect:
         serializedVersion: 2
         x: 42
@@ -938,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff9f6f74db7b88a42bbcb00da90aca36
-      internalID: -1729368978
+      spriteID: 60c76adb9d9145344a158e76f4b41865
+      internalID: -659930228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_40
+      name: Guayota_39
       rect:
         serializedVersion: 2
         x: 73
@@ -959,14 +938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bfd8967cfd22544487bf0be6a9a454d
-      internalID: 684609583
+      spriteID: ba8e9090f8900fd4ab79873709966d4e
+      internalID: -1109999550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_41
+      name: Guayota_40
       rect:
         serializedVersion: 2
         x: 105
@@ -980,14 +959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d317856be170b499325ceab9b6f485
-      internalID: 43063500
+      spriteID: 780d1834ff0aef845aa28079969e9c0a
+      internalID: 550505428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_42
+      name: Guayota_41
       rect:
         serializedVersion: 2
         x: 138
@@ -1001,14 +980,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e44ed6b26c558f4aa5bd8f7e2e345b0
-      internalID: 912718275
+      spriteID: 5563a3cecb6776b43adb0e62d86f1b2e
+      internalID: -119682513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_43
+      name: Guayota_42
       rect:
         serializedVersion: 2
         x: 10
@@ -1022,14 +1001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 740cd45abfa332540b080c7fc2b3b846
-      internalID: 559951548
+      spriteID: d48fd0528fa318e4aace64ad5594dd27
+      internalID: -987735842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_44
+      name: Guayota_43
       rect:
         serializedVersion: 2
         x: 42
@@ -1043,14 +1022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e324046e96e6c458aa6835c186fe9e
-      internalID: -698588260
+      spriteID: f3ccc5639812e054cb022436ab617d0e
+      internalID: -708833460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_45
+      name: Guayota_44
       rect:
         serializedVersion: 2
         x: 74
@@ -1064,14 +1043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d3de6cad6f17da4f92c9cb7e03ac9b8
-      internalID: -1995163592
+      spriteID: 9a1bbd8a10f5f0d4e8c6c306d8f35c86
+      internalID: 1856138895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_46
+      name: Guayota_45
       rect:
         serializedVersion: 2
         x: 105
@@ -1085,14 +1064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dba065cc305c0b42b74aacc61a221c2
-      internalID: 97909566
+      spriteID: e54f4c68734de5a48a538575db13a5a7
+      internalID: 971799084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_47
+      name: Guayota_46
       rect:
         serializedVersion: 2
         x: 138
@@ -1106,14 +1085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd51f06e3e05f7948bbfcdcda1b91047
-      internalID: 2092419634
+      spriteID: 3a66f895520d7bf4c8d2b413047d2c66
+      internalID: -686046914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_48
+      name: Guayota_47
       rect:
         serializedVersion: 2
         x: 10
@@ -1127,14 +1106,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8b995fd2d8c1bf4daafb4d7f8f5277c
-      internalID: -369005078
+      spriteID: ce6fb88ec70bcd849beb6a70ec72fbc4
+      internalID: 1435914411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_49
+      name: Guayota_48
       rect:
         serializedVersion: 2
         x: 42
@@ -1148,14 +1127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47a8a805f975c54abd777c34cea672f
-      internalID: 751038618
+      spriteID: 18426005d7481b844b4fac7cd67526d3
+      internalID: 1827550297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_50
+      name: Guayota_49
       rect:
         serializedVersion: 2
         x: 74
@@ -1169,14 +1148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab5e863db955af44e90ee321ad403177
-      internalID: 386459413
+      spriteID: aa3f072312111604ab21ae26e4c69958
+      internalID: 358904631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_51
+      name: Guayota_50
       rect:
         serializedVersion: 2
         x: 106
@@ -1190,14 +1169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a5198e87f916cc41835d127aa3e97d8
-      internalID: 231017751
+      spriteID: c1ec271ef4af1cf4f8bb9c4bcddefff2
+      internalID: -1539202572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_52
+      name: Guayota_51
       rect:
         serializedVersion: 2
         x: 138
@@ -1211,14 +1190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef6a2341f2fea34799f75027cd12355
-      internalID: 1912127516
+      spriteID: 03536d96c2f82bf4b8443edf1cb2431d
+      internalID: -1122938438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_53
+      name: Guayota_52
       rect:
         serializedVersion: 2
         x: 9
@@ -1232,14 +1211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43f88981e8534304a86af2ba343dd14e
-      internalID: 75147979
+      spriteID: 53d1cef645847e14c890ef0ddc5fda5d
+      internalID: 874115588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_54
+      name: Guayota_53
       rect:
         serializedVersion: 2
         x: 42
@@ -1253,14 +1232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9345ad3c25652604b9954113f7b88836
-      internalID: 193934319
+      spriteID: d85ec6f8953200744a1044f38f93919e
+      internalID: -1048717444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_55
+      name: Guayota_54
       rect:
         serializedVersion: 2
         x: 74
@@ -1274,14 +1253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41f3f1a21b1d73f42b3a841c9a1b0f7e
-      internalID: 1284489486
+      spriteID: e8d35e724e3d47243a5a8f3209a7ae4a
+      internalID: -842903195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_56
+      name: Guayota_55
       rect:
         serializedVersion: 2
         x: 106
@@ -1295,14 +1274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da706dd3b5dbbb46aa222fb4dec5119
-      internalID: 1284186295
+      spriteID: d6dd0be2661215c419a6712394a09718
+      internalID: 1461269315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_57
+      name: Guayota_56
       rect:
         serializedVersion: 2
         x: 137
@@ -1316,14 +1295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20fe46e0caf83194db915b904c728ace
-      internalID: -1996017949
+      spriteID: 310b145def2578b489b1fce3386cabd2
+      internalID: 319208714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_58
+      name: Guayota_57
       rect:
         serializedVersion: 2
         x: 10
@@ -1337,14 +1316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 479f6e18d3e5b2d44a1cd8a044d2312f
-      internalID: 65022825
+      spriteID: cd2b9d952d0218942a17b2a327ff38c6
+      internalID: -607556346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_59
+      name: Guayota_58
       rect:
         serializedVersion: 2
         x: 42
@@ -1358,14 +1337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5e38a3f24e1cae44aaa1af1505967c3
-      internalID: 1896744609
+      spriteID: 944e6ca2af1f6e143988224ed5085407
+      internalID: -394254323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_60
+      name: Guayota_59
       rect:
         serializedVersion: 2
         x: 74
@@ -1379,14 +1358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1cbca3686314584db39d110b26dcda0
-      internalID: 1117380309
+      spriteID: b2f849717745ecc4ca58be85a120bcae
+      internalID: -637330850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_61
+      name: Guayota_60
       rect:
         serializedVersion: 2
         x: 105
@@ -1400,14 +1379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b45aadc7422ca534e9b7493e9dc7061b
-      internalID: 1278714596
+      spriteID: e24a0d3a58f19a64286fecd2e4d123d5
+      internalID: 785472767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_62
+      name: Guayota_61
       rect:
         serializedVersion: 2
         x: 136
@@ -1421,14 +1400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd625292971eeee4bb48a5027b4804eb
-      internalID: 952280102
+      spriteID: 5322c95eacbf78c45b2ea69f4c2bfa1a
+      internalID: 684331718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_63
+      name: Guayota_62
       rect:
         serializedVersion: 2
         x: 10
@@ -1442,14 +1421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6aaf869983ae64bb1faea1c2924c44
-      internalID: -1449401489
+      spriteID: 0e5d1534df1aaec478187c4d95f86398
+      internalID: -846492225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_64
+      name: Guayota_63
       rect:
         serializedVersion: 2
         x: 42
@@ -1463,14 +1442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54c868240685c7d42932b0a38739df8f
-      internalID: 1346625035
+      spriteID: 9613af07bf0e4ee469ec5da0faa586f1
+      internalID: -1992435857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_65
+      name: Guayota_64
       rect:
         serializedVersion: 2
         x: 74
@@ -1484,14 +1463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2630a3a86153893449947c9fc221c22c
-      internalID: -1297039260
+      spriteID: 52cbce9560058ad458631ee0063cc663
+      internalID: 1928064326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_66
+      name: Guayota_65
       rect:
         serializedVersion: 2
         x: 106
@@ -1505,14 +1484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80fbf2a87c4424b4a895cdb6b8a6804b
-      internalID: 234618590
+      spriteID: 9f5718f387f1d734a92adfd42d66faf6
+      internalID: -1120783339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_67
+      name: Guayota_66
       rect:
         serializedVersion: 2
         x: 138
@@ -1526,14 +1505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc360901071f1d419e0b740cf309670
-      internalID: -1835490986
+      spriteID: 772d95c87d4656244920cb6a5d556ab0
+      internalID: -587609843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_68
+      name: Guayota_67
       rect:
         serializedVersion: 2
         x: 10
@@ -1547,14 +1526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4523554e464d6394d9e6c12079015d8e
-      internalID: -1126995698
+      spriteID: c435a742636ce584596576be60d4d159
+      internalID: -41007219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_69
+      name: Guayota_68
       rect:
         serializedVersion: 2
         x: 42
@@ -1568,14 +1547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b47148fe635f0d4f9384990581fec41
-      internalID: -338106200
+      spriteID: 774217f1f23505e4bb13820940d6febd
+      internalID: 683458471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_70
+      name: Guayota_69
       rect:
         serializedVersion: 2
         x: 74
@@ -1589,14 +1568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe0b6ab7d89a6f241845ef6b9abfb097
-      internalID: 1929993410
+      spriteID: e4b36ac89aa3c3a479f3e70d2acdfba3
+      internalID: -323368362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_71
+      name: Guayota_70
       rect:
         serializedVersion: 2
         x: 105
@@ -1610,14 +1589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01303f701c41eec439c9ad909134b348
-      internalID: -74394769
+      spriteID: 2bb419b111518b742b9d67d3a838f7d9
+      internalID: 777129091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_72
+      name: Guayota_71
       rect:
         serializedVersion: 2
         x: 136
@@ -1631,14 +1610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b942c4bfa3b36c459b6b98c19b991b5
-      internalID: 1448774630
+      spriteID: 9769a07f8be1a6f4291013e97f940d78
+      internalID: 1602189848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_73
+      name: Guayota_72
       rect:
         serializedVersion: 2
         x: 9
@@ -1652,14 +1631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2967bfceafb92a145af8120d59cce6be
-      internalID: -1061481372
+      spriteID: 290bd3f4a358af14aa1ce71c7e429b2c
+      internalID: -957437291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_74
+      name: Guayota_73
       rect:
         serializedVersion: 2
         x: 41
@@ -1673,14 +1652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8df5038388450a41a64a086860dfe16
-      internalID: -1772826747
+      spriteID: b3528b8aa3746034fb8b05307243370c
+      internalID: -317840255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_75
+      name: Guayota_74
       rect:
         serializedVersion: 2
         x: 73
@@ -1694,14 +1673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dba38a898ebc5814389710798fe87d00
-      internalID: -230172962
+      spriteID: 7996b87ae3dd82045bc2979949e14ec0
+      internalID: -1095832768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_76
+      name: Guayota_75
       rect:
         serializedVersion: 2
         x: 105
@@ -1715,14 +1694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20a3b50a971769243b89304e87a91010
-      internalID: -1918157860
+      spriteID: c6ebaef718ad0c543a9d5954c581105a
+      internalID: -254280210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_77
+      name: Guayota_76
       rect:
         serializedVersion: 2
         x: 137
@@ -1736,14 +1715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec78462dec822324fa2388f961325c13
-      internalID: 1299854109
+      spriteID: 2ecaa818aafd77048b7325f0ea6d1ae9
+      internalID: 2082108582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_78
+      name: Guayota_77
       rect:
         serializedVersion: 2
         x: 169
@@ -1757,14 +1736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f93babec1d0206409cf18e3e0c3fa47
-      internalID: -1418565941
+      spriteID: 7bb87e15a201e7e4eb5aae68e174edb0
+      internalID: 129509545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_79
+      name: Guayota_78
       rect:
         serializedVersion: 2
         x: 201
@@ -1778,14 +1757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79f4705e94d18bf46889f363557e0a97
-      internalID: -2059832295
+      spriteID: 27c3e46d1f144ca43861bf528ada581e
+      internalID: 1545694564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_80
+      name: Guayota_79
       rect:
         serializedVersion: 2
         x: 233
@@ -1799,14 +1778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 021e2c5336870ba42a97b7a338b432c0
-      internalID: 1281677570
+      spriteID: 99212b95124279c4ca0c759d0ab8f94c
+      internalID: 1465756920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_81
+      name: Guayota_80
       rect:
         serializedVersion: 2
         x: 8
@@ -1820,14 +1799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f7060a49ad56b0488faf5b61e4294a3
-      internalID: 667642065
+      spriteID: fae2029966c8dc245b66b240a53ea589
+      internalID: -149076290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_82
+      name: Guayota_81
       rect:
         serializedVersion: 2
         x: 40
@@ -1841,14 +1820,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 191acd639a4b9c641b78d847659d1f5b
-      internalID: -842674297
+      spriteID: c29e6eb1de132be44b8fa665dc3939ec
+      internalID: 285096408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_83
+      name: Guayota_82
       rect:
         serializedVersion: 2
         x: 72
@@ -1862,14 +1841,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 628dac482fd155749b6d061b9b8048d7
-      internalID: -2012394776
+      spriteID: 1e87c34b706bb4c45bcb33928024ba3f
+      internalID: 1821203683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_84
+      name: Guayota_83
       rect:
         serializedVersion: 2
         x: 104
@@ -1883,14 +1862,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1cfbc32b8af69449049621d2371c5b
-      internalID: -1163617957
+      spriteID: 04a9a474883f37b4487979c510575a24
+      internalID: -2027408195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_85
+      name: Guayota_84
       rect:
         serializedVersion: 2
         x: 136
@@ -1904,14 +1883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a17c4292aa3e444864b0a483106b9d
-      internalID: 1817497321
+      spriteID: 4a1708a07063f194983fa1a7238fa6de
+      internalID: 394136084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_86
+      name: Guayota_85
       rect:
         serializedVersion: 2
         x: 168
@@ -1925,14 +1904,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58427f850e7103b479474d4829f25d65
-      internalID: -1468420000
+      spriteID: 40491a1e88a5cd14ca28aab3839dd90f
+      internalID: -337709160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_87
+      name: Guayota_86
       rect:
         serializedVersion: 2
         x: 200
@@ -1946,14 +1925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d88bd040e0b5d4da6d0372d9369649
-      internalID: 1368657467
+      spriteID: 9925e9d745de11342a2d11e7b0a853d6
+      internalID: 1733729144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_88
+      name: Guayota_87
       rect:
         serializedVersion: 2
         x: 232
@@ -1967,14 +1946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c35b1dac1d2584cb6d55921a27c53f
-      internalID: -965327884
+      spriteID: cb60acd940d2f2445ac5c23d2709ae71
+      internalID: 1053663515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_89
+      name: Guayota_88
       rect:
         serializedVersion: 2
         x: 10
@@ -1988,14 +1967,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40e2e715f2f38a546b48665bc5977bed
-      internalID: 1474969481
+      spriteID: c4a7ccfed19304042b62f0fb534faae8
+      internalID: -2061254074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_90
+      name: Guayota_89
       rect:
         serializedVersion: 2
         x: 42
@@ -2009,14 +1988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c6229ea3bd06c44985b0abb829d548
-      internalID: 619834339
+      spriteID: e3c369761e97c8a4d8d3499308c566c6
+      internalID: -1874925922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_91
+      name: Guayota_90
       rect:
         serializedVersion: 2
         x: 74
@@ -2030,14 +2009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb983110c50cf554facc962cda59545c
-      internalID: -480028844
+      spriteID: fcbf6a90edff187479f84cc04c116e36
+      internalID: 2146190482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_92
+      name: Guayota_91
       rect:
         serializedVersion: 2
         x: 106
@@ -2051,14 +2030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 748c31d2d2e72624495d75c9defe4734
-      internalID: -767600433
+      spriteID: ef31cc828d78f29408ef2a0f6a242676
+      internalID: -1353367352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_93
+      name: Guayota_92
       rect:
         serializedVersion: 2
         x: 138
@@ -2072,14 +2051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b633286af0cd2a14a908580d22a11365
-      internalID: -2043504496
+      spriteID: 81275debf49b9184091d4d7339534a77
+      internalID: 1228075340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_94
+      name: Guayota_93
       rect:
         serializedVersion: 2
         x: 170
@@ -2093,14 +2072,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e24cf9ed5c2c51408b6191b7ca71088
-      internalID: -1685143397
+      spriteID: 771792a7aa72be74f8141b18a4515ad1
+      internalID: -99421584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_95
+      name: Guayota_94
       rect:
         serializedVersion: 2
         x: 202
@@ -2114,14 +2093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01b738600fabdf241b219f436c949ff5
-      internalID: -1970312293
+      spriteID: 2a3701398de82934e9b06ef71910b529
+      internalID: 1606512389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_96
+      name: Guayota_95
       rect:
         serializedVersion: 2
         x: 234
@@ -2135,14 +2114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a14aba6da5b33449f2d11d51ce36e2
-      internalID: -2098252502
+      spriteID: 4aac6e5f5d7d5aa4389668b64e24e1af
+      internalID: -195105582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_97
+      name: Guayota_96
       rect:
         serializedVersion: 2
         x: 8
@@ -2156,14 +2135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd1ca7843ea54504ea1ddfd8eb9bf69c
-      internalID: -2049674318
+      spriteID: 5411667d277bc1047940150100ce2168
+      internalID: -1755301184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_98
+      name: Guayota_97
       rect:
         serializedVersion: 2
         x: 40
@@ -2177,14 +2156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70353231f34d8da49a085d7c013cd97a
-      internalID: -1107039351
+      spriteID: b3b9dd04890b2fd4e92be407958e8ea2
+      internalID: 319912376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_99
+      name: Guayota_98
       rect:
         serializedVersion: 2
         x: 72
@@ -2198,14 +2177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b0e3b1fb82538141b143789abe3c8d1
-      internalID: -1085025351
+      spriteID: 8f956e2bd7396be4eb936f3f510bd821
+      internalID: 744750726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_100
+      name: Guayota_99
       rect:
         serializedVersion: 2
         x: 104
@@ -2219,14 +2198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dfa7640dba8ac945a23bcefa2fd0561
-      internalID: -1601223889
+      spriteID: 36dce773b4f18254e8e1f5d20ed95222
+      internalID: -626464438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_101
+      name: Guayota_100
       rect:
         serializedVersion: 2
         x: 136
@@ -2240,14 +2219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe7631eb0f728447ba29165b2fa9d67
-      internalID: -398040598
+      spriteID: 5059951ef4dcf8743956b90cc469570d
+      internalID: 1674588589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_102
+      name: Guayota_101
       rect:
         serializedVersion: 2
         x: 168
@@ -2261,14 +2240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce4792441c0c2ae4d8ce8058150ddd19
-      internalID: 472341077
+      spriteID: fccf4fe642cc68a4bac4fdf6a9e63599
+      internalID: 906997002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_103
+      name: Guayota_102
       rect:
         serializedVersion: 2
         x: 200
@@ -2282,14 +2261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c62603496c738ea41a3dec91e5fa723b
-      internalID: 891486057
+      spriteID: 58785867e00c10f40998703398b6cc65
+      internalID: 1618788606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_104
+      name: Guayota_103
       rect:
         serializedVersion: 2
         x: 232
@@ -2303,14 +2282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a43120147d37c54abdd90eb36f37303
-      internalID: -784947265
+      spriteID: 0a8f8411560e47449834bb2c2fde07b6
+      internalID: -196761830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_105
+      name: Guayota_104
       rect:
         serializedVersion: 2
         x: 9
@@ -2324,14 +2303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d243923afc9f8944fad98c9f878c655d
-      internalID: 127473813
+      spriteID: 7dec1de33b11ce643ae62a084a5899ee
+      internalID: -1378898245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_106
+      name: Guayota_105
       rect:
         serializedVersion: 2
         x: 38
@@ -2345,14 +2324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80bfd3bdc8871dd40b53115b727848f4
-      internalID: 55912435
+      spriteID: 4f4689ea6b327754790b5d6e5ff20290
+      internalID: -1521636500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_107
+      name: Guayota_106
       rect:
         serializedVersion: 2
         x: 70
@@ -2366,14 +2345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc6bfbd9a31de142afefd4618fb7ae3
-      internalID: 1866935543
+      spriteID: d7904049f62b83d46a4762d06357ad89
+      internalID: -1716017010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_108
+      name: Guayota_107
       rect:
         serializedVersion: 2
         x: 106
@@ -2387,14 +2366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9479db6a3a1b68545b75b68c001e0366
-      internalID: -800058961
+      spriteID: aadd84e894b262040a72ef55d5f3c76f
+      internalID: 1079521886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_109
+      name: Guayota_108
       rect:
         serializedVersion: 2
         x: 5
@@ -2408,14 +2387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6231926f2e10ea741bd0b98a492cbdab
-      internalID: -669103523
+      spriteID: 4011f0944bae4fd439660022e9638ac9
+      internalID: 1960468713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_110
+      name: Guayota_109
       rect:
         serializedVersion: 2
         x: 42
@@ -2429,14 +2408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03b0a8372b8fd34e86556ca4a1ebba3
-      internalID: 1385883498
+      spriteID: 9e59202b3d541064a905eda7efbcf98f
+      internalID: 1093593018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_111
+      name: Guayota_110
       rect:
         serializedVersion: 2
         x: 68
@@ -2450,14 +2429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3520908fccb2c634eb0e195eb64f0d9a
-      internalID: -294562586
+      spriteID: 5170e1336d765b44d93c568caf4b3481
+      internalID: -1880121292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_112
+      name: Guayota_111
       rect:
         serializedVersion: 2
         x: 73
@@ -2471,14 +2450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39c5e85c0b0b29341a19ab065b7e1a79
-      internalID: 515700679
+      spriteID: 7146738cd1e23c843882a9f360c00725
+      internalID: -1139131361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_113
+      name: Guayota_112
       rect:
         serializedVersion: 2
         x: 96
@@ -2492,14 +2471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd690fe46f786284c9c735a43996a629
-      internalID: -258410587
+      spriteID: 6d0d0ced090a0dc42b127102335dff9f
+      internalID: -454012345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_114
+      name: Guayota_113
       rect:
         serializedVersion: 2
         x: 10
@@ -2513,14 +2492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e787b2b0987364aa5e8eb730b02e2e
-      internalID: 164322822
+      spriteID: 946da8be05c29ec4b95f9dbff19132ba
+      internalID: 1980444397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_115
+      name: Guayota_114
       rect:
         serializedVersion: 2
         x: 40
@@ -2534,14 +2513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcf3bae196d42204da0df226ff9c687d
-      internalID: 1060053656
+      spriteID: ee4fb94793201b746b2ec37a5cd4bfa3
+      internalID: 75853076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_116
+      name: Guayota_115
       rect:
         serializedVersion: 2
         x: 73
@@ -2555,14 +2534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1798d57e6202ba4da188d16dfe1ba6a
-      internalID: 542979894
+      spriteID: 2ab2d9e5a58dd94478123e75b30a0e9f
+      internalID: 129905280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_117
+      name: Guayota_116
       rect:
         serializedVersion: 2
         x: 86
@@ -2576,14 +2555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69b2f2cb64e1b74f8ef18bd8d95c65c
-      internalID: 1618153740
+      spriteID: c2195d0fc6718704daa94c70beb2304a
+      internalID: -1818202382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_118
+      name: Guayota_117
       rect:
         serializedVersion: 2
         x: 106
@@ -2597,14 +2576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfdb2fc6f55043641b43d8d6dcd0448f
-      internalID: -674359984
+      spriteID: f0aa6bb6e238fa24e9c9d7bc9a9df3bb
+      internalID: -404284286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_119
+      name: Guayota_118
       rect:
         serializedVersion: 2
         x: 1
@@ -2618,14 +2597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536307b4438af914d91e41740d204ae3
-      internalID: -1429522820
+      spriteID: e78154f7ef7c98446a4a7f3864040965
+      internalID: -1722047040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_120
+      name: Guayota_119
       rect:
         serializedVersion: 2
         x: 42
@@ -2639,14 +2618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6617b1e053a494b944f80d5137a2e5
-      internalID: 879850935
+      spriteID: 1dc5e8251a6d35e45a00cf003da144ff
+      internalID: 1951172166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_121
+      name: Guayota_120
       rect:
         serializedVersion: 2
         x: 64
@@ -2660,14 +2639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a91adf6c7dc7b9940ab6ebb2a0b4f13c
-      internalID: 1806655591
+      spriteID: a21bb71f9438cc147aa654e88878e3a3
+      internalID: -280677344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_122
+      name: Guayota_121
       rect:
         serializedVersion: 2
         x: 67
@@ -2681,14 +2660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 173bfbad4fc4e794bb9d035261d3a2a9
-      internalID: 44681376
+      spriteID: 64ba57107f168f944bd6d3ea56b0bc44
+      internalID: 2039222584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_123
+      name: Guayota_122
       rect:
         serializedVersion: 2
         x: 99
@@ -2702,14 +2681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cdc69b69646a1949a53b599b0404319
-      internalID: -1283875254
+      spriteID: 3edc30ea531c7844aabf2d86622beb68
+      internalID: -1156115066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_124
+      name: Guayota_123
       rect:
         serializedVersion: 2
         x: 6
@@ -2723,14 +2702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df5a7963d0bacd34380a2dc1491e2f44
-      internalID: 1790566671
+      spriteID: 3fd2a1b7d9981c24b95335787312205d
+      internalID: -949302222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_125
+      name: Guayota_124
       rect:
         serializedVersion: 2
         x: 10
@@ -2744,14 +2723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b84abe4fac3d569459f0609658fe5c0b
-      internalID: 527724033
+      spriteID: e3241168f08e3c24ba1cba51b1acfdaf
+      internalID: -300473795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_126
+      name: Guayota_125
       rect:
         serializedVersion: 2
         x: 8
@@ -2765,14 +2744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2daa9dd5c61a63646833e3d747bb7ad8
-      internalID: -1442469988
+      spriteID: 0bb9019b7582db24e8eaf0360e866cad
+      internalID: 570172561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_127
+      name: Guayota_126
       rect:
         serializedVersion: 2
         x: 10
@@ -2786,14 +2765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cad30cbca5d2ceb4db8293defd674c95
-      internalID: 679039400
+      spriteID: d3cd5c1cc0b6fac449b78c6e0a6223c0
+      internalID: -933226527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_128
+      name: Guayota_127
       rect:
         serializedVersion: 2
         x: 9
@@ -2807,14 +2786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f27851ce0fa9804aab90207c8aff472
-      internalID: 1705360784
+      spriteID: ca5549d7ca131394892332f5a5652cb4
+      internalID: 485540338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_129
+      name: Guayota_128
       rect:
         serializedVersion: 2
         x: 10
@@ -2828,14 +2807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ffd7a53373ea8e43a7ca1f65fbefdef
-      internalID: 1047287724
+      spriteID: 61046f1ee696f9747bd7118687d86800
+      internalID: 870308515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_130
+      name: Guayota_129
       rect:
         serializedVersion: 2
         x: 10
@@ -2849,14 +2828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dead84e1cb5ba1245bf94dd2b592a262
-      internalID: 64129263
+      spriteID: 8f3a4abcfd9aba64aae6bff45539c2b2
+      internalID: 1431856936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_131
+      name: Guayota_130
       rect:
         serializedVersion: 2
         x: 10
@@ -2870,14 +2849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3002adbd98463bd4cb5915fd61924273
-      internalID: 1624702452
+      spriteID: c0db2cfac7f390c4ca86dc8897cf7308
+      internalID: 775584549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_132
+      name: Guayota_131
       rect:
         serializedVersion: 2
         x: 6
@@ -2891,14 +2870,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a63363fdccbec44290c94ad85ea021f
-      internalID: 681231502
+      spriteID: 3aff52f2be9354e489d1ceefe7d8001f
+      internalID: 1226226730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_133
+      name: Guayota_132
       rect:
         serializedVersion: 2
         x: 38
@@ -2912,14 +2891,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53bde0ab4b3b1cd449fa9261a60b99dc
-      internalID: -1009183429
+      spriteID: 4a284383f46e21c4dbfbaf92e0faa6a2
+      internalID: -514414348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_134
+      name: Guayota_133
       rect:
         serializedVersion: 2
         x: 10
@@ -2933,14 +2912,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb812b30068942343902498b0ea6422e
-      internalID: -430802237
+      spriteID: 43b8718ffffc31041ae7de57d959027e
+      internalID: 1211562043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_135
+      name: Guayota_134
       rect:
         serializedVersion: 2
         x: 42
@@ -2954,14 +2933,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360169800d49e244a8392007410dd989
-      internalID: 1139057273
+      spriteID: 2fe3a7a6392017c4fae822f0b54fac69
+      internalID: -794116487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_136
+      name: Guayota_135
       rect:
         serializedVersion: 2
         x: 74
@@ -2975,14 +2954,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5b386111cdbac4592eb48470b194a0
-      internalID: -1887309082
+      spriteID: aa496236254e35e4c9a7161cecb99f83
+      internalID: -1078196110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_137
+      name: Guayota_136
       rect:
         serializedVersion: 2
         x: 106
@@ -2996,14 +2975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b92deffc81192bb4bb691b39ae7c131d
-      internalID: -219504438
+      spriteID: 748c3ef5a70a96d448f2872edd0464f3
+      internalID: 1650878600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_138
+      name: Guayota_137
       rect:
         serializedVersion: 2
         x: 138
@@ -3017,14 +2996,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e818fdb9c3ad442873c0355e70cf7d
-      internalID: -1030567237
+      spriteID: 651148bf2c8796a479633d8c672087c3
+      internalID: -1382437431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_139
+      name: Guayota_138
       rect:
         serializedVersion: 2
         x: 10
@@ -3038,14 +3017,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e99ed4bf467a4d479d5ad3e1def398e
-      internalID: -9046960
+      spriteID: 91b1bcef80bbf4c4c974fd2e597cb55f
+      internalID: 1730858724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_140
+      name: Guayota_139
       rect:
         serializedVersion: 2
         x: 42
@@ -3059,14 +3038,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc7a6675d2b5e3d4290519d97414b933
-      internalID: 1346828943
+      spriteID: e4ca88fcbbe99b44b95aa838025a4614
+      internalID: 1795270250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_141
+      name: Guayota_140
       rect:
         serializedVersion: 2
         x: 74
@@ -3080,14 +3059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d589ece83d25e1542be961c695c6eb27
-      internalID: -368944567
+      spriteID: b1b2b80a4acc1dd46ae7cbb12b827c37
+      internalID: -1590846857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_142
+      name: Guayota_141
       rect:
         serializedVersion: 2
         x: 106
@@ -3101,14 +3080,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6753a0e6c5d0c4ebe4464df67627bb
-      internalID: 1138647832
+      spriteID: 340a93d2815bc3645985fcbb554b56cb
+      internalID: -1280673285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_143
+      name: Guayota_142
       rect:
         serializedVersion: 2
         x: 138
@@ -3122,14 +3101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd0ac471559a11647bef7a3da8fea955
-      internalID: 1524679547
+      spriteID: d8c5e2d6ca1c60f4989423e17ae93012
+      internalID: 1455603727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_144
+      name: Guayota_143
       rect:
         serializedVersion: 2
         x: 10
@@ -3143,14 +3122,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a055b77eb3b7ab42ad17277cb1b7365
-      internalID: 31065581
+      spriteID: b5084ca110d75a547b0d55860a5509f4
+      internalID: -1747692451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_145
+      name: Guayota_144
       rect:
         serializedVersion: 2
         x: 42
@@ -3164,14 +3143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 594c9caf0c03e6d47ab8c16797a7607e
-      internalID: -609123829
+      spriteID: c92455d5ce0ba0a45810a76d52f4f68c
+      internalID: 431930212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_146
+      name: Guayota_145
       rect:
         serializedVersion: 2
         x: 71
@@ -3185,14 +3164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848eb0065f684a640827c439c015a7d2
-      internalID: 1349402857
+      spriteID: 8fbddcc571a4aef4a8f3915da6450db2
+      internalID: 229513823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_147
+      name: Guayota_146
       rect:
         serializedVersion: 2
         x: 101
@@ -3206,14 +3185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 592bd8644e9b0db4384a1a796b347709
-      internalID: 671500412
+      spriteID: b15d1d45ad252c64783afa0060688577
+      internalID: -811356536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_148
+      name: Guayota_147
       rect:
         serializedVersion: 2
         x: 138
@@ -3227,14 +3206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8670c04157b149b4bba130c40d83742b
-      internalID: -1183849622
+      spriteID: 878647449d7a91943a0017ec2e10f9d4
+      internalID: 1219103988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_149
+      name: Guayota_148
       rect:
         serializedVersion: 2
         x: 4
@@ -3248,14 +3227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8136c1ee409294384aa153275dd181
-      internalID: 1217543326
+      spriteID: a72de99f8b1ac194bbccf506bf90e2b9
+      internalID: 1569009438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_150
+      name: Guayota_149
       rect:
         serializedVersion: 2
         x: 38
@@ -3269,14 +3248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda82a1892c598045af90b0b7a7eef91
-      internalID: 278243320
+      spriteID: 77d1d7a3eb23b1d40927dae957da9ce3
+      internalID: -1070684712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_151
+      name: Guayota_150
       rect:
         serializedVersion: 2
         x: 74
@@ -3290,14 +3269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbd98787fe63c543bcad61b542fc53c
-      internalID: 897066100
+      spriteID: 7cc02a033ab7b5245aca55383d384544
+      internalID: 1952371978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_152
+      name: Guayota_151
       rect:
         serializedVersion: 2
         x: 98
@@ -3311,14 +3290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aacf551c51191ed4a9104276704d7703
-      internalID: -1031031398
+      spriteID: d7c946ead37fc2c4a8244e9233cc8239
+      internalID: -84121675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_153
+      name: Guayota_152
       rect:
         serializedVersion: 2
         x: 130
@@ -3332,14 +3311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 481c88cf6c79f0b41abee3db8f4461a1
-      internalID: -1203533289
+      spriteID: 3c13434e2d1dded49a315e86f58daec1
+      internalID: -1442090393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_154
+      name: Guayota_153
       rect:
         serializedVersion: 2
         x: 10
@@ -3353,14 +3332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2eaec2c9bf545f48bb0ec2b1f587935
-      internalID: 1533574611
+      spriteID: fd8056d85cb69a74ab45635060db84f1
+      internalID: -152243374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_155
+      name: Guayota_154
       rect:
         serializedVersion: 2
         x: 42
@@ -3374,14 +3353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f534053cd77504a41ba62e1bede101d2
-      internalID: 1838843621
+      spriteID: d31717470cb2ba94f9ffbec499157636
+      internalID: 2098036299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_156
+      name: Guayota_155
       rect:
         serializedVersion: 2
         x: 74
@@ -3395,14 +3374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a4b52718b114444852a614172cc3f2
-      internalID: 299639752
+      spriteID: 1a46161b37100514580d2cec97b16558
+      internalID: -434300642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_157
+      name: Guayota_156
       rect:
         serializedVersion: 2
         x: 106
@@ -3416,14 +3395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c5d649be2ce45441b357dc6ebf125f5
-      internalID: -1097831815
+      spriteID: 82beb1b6cff33924e96044f88909ed42
+      internalID: -1154716374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_158
+      name: Guayota_157
       rect:
         serializedVersion: 2
         x: 138
@@ -3437,14 +3416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33ea9820ef9b44f43ba277caef964e03
-      internalID: -1760608688
+      spriteID: d5bd3259db96d394daa95e0287a72aa2
+      internalID: 502111421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_159
+      name: Guayota_158
       rect:
         serializedVersion: 2
         x: 10
@@ -3458,14 +3437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3f89a376d0fccc4ea65acfa7671f438
-      internalID: -1630971551
+      spriteID: 0dba9fd1ac8c7ac4bb10e4de823cfaa2
+      internalID: -1404321859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_160
+      name: Guayota_159
       rect:
         serializedVersion: 2
         x: 42
@@ -3479,14 +3458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3722450bf4b4da248ba70e8fc9ab44f6
-      internalID: 1190552092
+      spriteID: 556facd4694d0ce479709edbc8293580
+      internalID: 1085711248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_161
+      name: Guayota_160
       rect:
         serializedVersion: 2
         x: 74
@@ -3500,14 +3479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36d5dc039468ffa499197f29ff7f5460
-      internalID: 2043587420
+      spriteID: 9e9b8529d64cb5a41ada015a0ff34f57
+      internalID: -1313762475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_162
+      name: Guayota_161
       rect:
         serializedVersion: 2
         x: 106
@@ -3521,14 +3500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa6846cd23bb8241b0c29bd5742c271
-      internalID: 1927019630
+      spriteID: 214c42dcfab46864292823dd6d519639
+      internalID: 1625753889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_163
+      name: Guayota_162
       rect:
         serializedVersion: 2
         x: 138
@@ -3542,14 +3521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39ef9179f09fc734faefe226b4260857
-      internalID: 997353728
+      spriteID: 793ad0fb8ccceec4d9ce870a6a23f09f
+      internalID: -565375628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_164
+      name: Guayota_163
       rect:
         serializedVersion: 2
         x: 10
@@ -3563,14 +3542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4134788e1266ef7479a85f14178dcf0b
-      internalID: 1484303375
+      spriteID: 53474eeac6257ee49ac5f7ca34e2caae
+      internalID: -1675470573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_165
+      name: Guayota_164
       rect:
         serializedVersion: 2
         x: 42
@@ -3584,14 +3563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0376fb0368b8cd14ab05e7b4ebf1d7ff
-      internalID: -1906693814
+      spriteID: 06e996aa74fb8194595665dcb36d239d
+      internalID: -1994314067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_166
+      name: Guayota_165
       rect:
         serializedVersion: 2
         x: 72
@@ -3605,14 +3584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c533bbd90368aa458237f2b6ce24d2b
-      internalID: -291223092
+      spriteID: 423c1ecba0d64f14283bde34dc21a740
+      internalID: -782694087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_167
+      name: Guayota_166
       rect:
         serializedVersion: 2
         x: 101
@@ -3626,14 +3605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e79d999b44a1c1489cc585670535afd
-      internalID: 170697126
+      spriteID: 5b31ee69704b32144bfe6fd6230c1588
+      internalID: -1994058704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_168
+      name: Guayota_167
       rect:
         serializedVersion: 2
         x: 138
@@ -3647,14 +3626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0cf377758d7cb04899c44cb560f04c0
-      internalID: -199764058
+      spriteID: 28b8472a2c1b0ba478943d29e7293959
+      internalID: 1800838413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_169
+      name: Guayota_168
       rect:
         serializedVersion: 2
         x: 2
@@ -3668,14 +3647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a50911b4cfc50445b88bb90988f8f9f
-      internalID: 423264967
+      spriteID: 41fcc33b2683c0841942bc08d88346ea
+      internalID: 336319678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_170
+      name: Guayota_169
       rect:
         serializedVersion: 2
         x: 39
@@ -3689,14 +3668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc813b421255714eb0511e276e7415c
-      internalID: -1113705964
+      spriteID: 0b507edf1466d594ab47c96882b3254b
+      internalID: -1535151437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_171
+      name: Guayota_170
       rect:
         serializedVersion: 2
         x: 74
@@ -3710,14 +3689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 553e6fb417d95554583a588a253012ef
-      internalID: 10484915
+      spriteID: d1b3a8e73a1564b469ee1268ebbe7e27
+      internalID: -1522084214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_172
+      name: Guayota_171
       rect:
         serializedVersion: 2
         x: 98
@@ -3731,14 +3710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05c3ee0d212fe0541ac47b83a52b616a
-      internalID: 1342141605
+      spriteID: 1dab8c30758173946bad1ebe59380b08
+      internalID: -1690001807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_173
+      name: Guayota_172
       rect:
         serializedVersion: 2
         x: 130
@@ -3752,14 +3731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76410ac40515854448c2c88c8c5e60a3
-      internalID: -1272587353
+      spriteID: 07aab1da73d09164bb3f0676ef2efadb
+      internalID: -826887778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_174
+      name: Guayota_173
       rect:
         serializedVersion: 2
         x: 10
@@ -3773,14 +3752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b63d3daa9f126c441becca789707a95f
-      internalID: 946843674
+      spriteID: 1ac4e16f868edf046b4966655a620cda
+      internalID: -1470874130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_175
+      name: Guayota_174
       rect:
         serializedVersion: 2
         x: 42
@@ -3794,14 +3773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8028546f607b2644b5e8470093c9f8f
-      internalID: -1504433672
+      spriteID: 349b97cba1e214a439cd1bbec0c6c084
+      internalID: 93164366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_176
+      name: Guayota_175
       rect:
         serializedVersion: 2
         x: 10
@@ -3815,14 +3794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8239a1e668753814f99b3b5f01060fca
-      internalID: -1431353083
+      spriteID: 96f50ed7059246d4b97e0191af540f1c
+      internalID: -1785852184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_177
+      name: Guayota_176
       rect:
         serializedVersion: 2
         x: 42
@@ -3836,14 +3815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f75751c1d4f6ee4fbbc6034fdf9c153
-      internalID: 470094264
+      spriteID: 690de6e55d1aedd419f67514a7d2e743
+      internalID: -229909700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_178
+      name: Guayota_177
       rect:
         serializedVersion: 2
         x: 10
@@ -3857,14 +3836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 541771507b5a00e4ab5d578b1b5ddc8d
-      internalID: -1201750267
+      spriteID: e6f6f36ced551b94cafe7d91a0e0298b
+      internalID: 2031427646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_179
+      name: Guayota_178
       rect:
         serializedVersion: 2
         x: 42
@@ -3878,14 +3857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 243946755d5257648a6b044fdb219d21
-      internalID: 1266064978
+      spriteID: 37c0896dd71af8b4aab0dff57d4d153b
+      internalID: -117202625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_180
+      name: Guayota_179
       rect:
         serializedVersion: 2
         x: 4
@@ -3899,14 +3878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd76f6418c721342b4535cad5f4cdf5
-      internalID: -1094899661
+      spriteID: 13de5dfdf8c90bc458933e71b8d271db
+      internalID: -1930769912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_181
+      name: Guayota_180
       rect:
         serializedVersion: 2
         x: 35
@@ -3920,14 +3899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 038469e8880c87d4e82ef5e64e73395d
-      internalID: -1586897414
+      spriteID: dfaa7a1ffe0037141b2670b51f905700
+      internalID: -1063146958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_182
+      name: Guayota_181
       rect:
         serializedVersion: 2
         x: 10
@@ -3941,14 +3920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b65d51444e7da9244a8c1fc44c8b8fc9
-      internalID: -3981333
+      spriteID: 7e88e672614f6b444a2b9a8cda93488d
+      internalID: -1012051036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_183
+      name: Guayota_182
       rect:
         serializedVersion: 2
         x: 42
@@ -3962,14 +3941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e301f559185ee1e4cb42728f0409d57d
-      internalID: 488597851
+      spriteID: 5a38b2c679366704eb9bbb0c4a602198
+      internalID: -353689628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_184
+      name: Guayota_183
       rect:
         serializedVersion: 2
         x: 74
@@ -3983,14 +3962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aa00890d8c080e4cb0a1fa71798ab73
-      internalID: -1893202645
+      spriteID: bb10b68f72fa9c34990ce3f475f454eb
+      internalID: -2030355910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_185
+      name: Guayota_184
       rect:
         serializedVersion: 2
         x: 106
@@ -4004,14 +3983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f6b21b745da10847abfd7e82280ae76
-      internalID: 272902755
+      spriteID: 83b6dff0d2f2c3546af749b697f1859e
+      internalID: 1273749394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_186
+      name: Guayota_185
       rect:
         serializedVersion: 2
         x: 138
@@ -4025,14 +4004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fafc6c6fd8f22f45b652adb5291ecb9
-      internalID: -2145898127
+      spriteID: 14da120020922cc4dbbf84f94d637213
+      internalID: -944903566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_187
+      name: Guayota_186
       rect:
         serializedVersion: 2
         x: 10
@@ -4046,14 +4025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d31338b58891541a7de9a2da2245de
-      internalID: 1635696856
+      spriteID: c787445fd1c3a2e4b81aad9fc2d0f924
+      internalID: -1586356430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_188
+      name: Guayota_187
       rect:
         serializedVersion: 2
         x: 42
@@ -4067,14 +4046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f577c2b2942aec147be69faafaa12684
-      internalID: -1575981170
+      spriteID: 9f2164697a8045d4e97b0c72395c7da7
+      internalID: -1160925785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_189
+      name: Guayota_188
       rect:
         serializedVersion: 2
         x: 74
@@ -4088,14 +4067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afdaa09e9ce574e49aa728f832826020
-      internalID: -1410177987
+      spriteID: 9151fde2242a298469eb71a67b00e64a
+      internalID: 1240820062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_190
+      name: Guayota_189
       rect:
         serializedVersion: 2
         x: 106
@@ -4109,14 +4088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de13b1a0397fec94bb81636c557f0877
-      internalID: 1780681472
+      spriteID: 259ef9bae0dbaf84babfd72f5d33f8c6
+      internalID: -1894450138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_191
+      name: Guayota_190
       rect:
         serializedVersion: 2
         x: 138
@@ -4130,14 +4109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6305e953f2a6e418d016a11bb6844e
-      internalID: -329610972
+      spriteID: 190f4eba546a10b4fb00cfd5e051ef4b
+      internalID: 2093779669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_192
+      name: Guayota_191
       rect:
         serializedVersion: 2
         x: 10
@@ -4151,14 +4130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5926dc0fcf30f0e41af31387381042ff
-      internalID: 1065622923
+      spriteID: 7cc7026d57ecfde4f9965846f7d1933e
+      internalID: -1748068598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_193
+      name: Guayota_192
       rect:
         serializedVersion: 2
         x: 43
@@ -4172,14 +4151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26db212a3e6bf8d4082a0e6ff302e800
-      internalID: -1162909378
+      spriteID: 69853db8e47b37841b12ead86e373bad
+      internalID: -2003092277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_194
+      name: Guayota_193
       rect:
         serializedVersion: 2
         x: 76
@@ -4193,14 +4172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a31acd320786a4183000ffa43c089f
-      internalID: 1667328616
+      spriteID: 081f297cad1c0894cb8cf5ff285203ee
+      internalID: -734317100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_195
+      name: Guayota_194
       rect:
         serializedVersion: 2
         x: 107
@@ -4214,14 +4193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f007aad4808f1cd47b7480d1a0ca055e
-      internalID: 901172370
+      spriteID: e02b3046999e90e44a06494e8d28a8f2
+      internalID: -1645060413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_196
+      name: Guayota_195
       rect:
         serializedVersion: 2
         x: 140
@@ -4235,14 +4214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73a8a43309b06e243ad63d3356ccb94d
-      internalID: -414512279
+      spriteID: 40b7e11a47421ed4d9c2f8e55ce7a879
+      internalID: 78961788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_197
+      name: Guayota_196
       rect:
         serializedVersion: 2
         x: 2
@@ -4256,14 +4235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5917c4d36d6590b46bc23e72977acc9f
-      internalID: 1164855472
+      spriteID: d240660ec1f714b4b80cae6a81a0f131
+      internalID: -1300643830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_198
+      name: Guayota_197
       rect:
         serializedVersion: 2
         x: 35
@@ -4277,14 +4256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 867ee667fd868c0438aa65904c8a3230
-      internalID: -842862516
+      spriteID: 923e2f09028174c4e96e2c98ffacb821
+      internalID: -1957172708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_199
+      name: Guayota_198
       rect:
         serializedVersion: 2
         x: 65
@@ -4298,14 +4277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30ae3cf6f4a83464496466e3846f1829
-      internalID: -1419404828
+      spriteID: 0fa0dd7c523dc97478d46388a8178aa4
+      internalID: 1793068948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_200
+      name: Guayota_199
       rect:
         serializedVersion: 2
         x: 99
@@ -4319,14 +4298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d66552f93e84d42b6fd6cb7f340a32
-      internalID: 1989073099
+      spriteID: 9186212c8a99ae049ac3ad814bfe9e21
+      internalID: 796397460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_201
+      name: Guayota_200
       rect:
         serializedVersion: 2
         x: 129
@@ -4340,14 +4319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 913cf12942461524daca11dbe2380bfd
-      internalID: 594337646
+      spriteID: 1716a93e251555e4881e35099e410d16
+      internalID: -835290682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_202
+      name: Guayota_201
       rect:
         serializedVersion: 2
         x: 10
@@ -4361,14 +4340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ec6f373fb048404dbbe136fb4b2ae17
-      internalID: 1534132385
+      spriteID: 7b4711288c1a4d146ab579e16816fc59
+      internalID: 586071819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_203
+      name: Guayota_202
       rect:
         serializedVersion: 2
         x: 42
@@ -4382,14 +4361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e6bcf83f282f146a77e305a3960e2a
-      internalID: -1143841294
+      spriteID: 7c95337cce6b5aa4fbb6b6c624bcd9d7
+      internalID: 492760038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_204
+      name: Guayota_203
       rect:
         serializedVersion: 2
         x: 74
@@ -4403,14 +4382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3444e8f0004c3042a8cf8bd955607cf
-      internalID: -1056522625
+      spriteID: f78e7f09a0dcbd74694cbcfe4963e539
+      internalID: 1768395267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_205
+      name: Guayota_204
       rect:
         serializedVersion: 2
         x: 106
@@ -4424,14 +4403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88fa695744cb32041a1c48769d1212d8
-      internalID: -872811744
+      spriteID: 4d8035a58adf03f4899f3589d0a077bf
+      internalID: 1968880793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_206
+      name: Guayota_205
       rect:
         serializedVersion: 2
         x: 138
@@ -4445,14 +4424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d9d2a2410645046b129744ddd72abd
-      internalID: -1946821292
+      spriteID: 98f56f742e9ea0e4885d3b181e1b09af
+      internalID: -243786714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_207
+      name: Guayota_206
       rect:
         serializedVersion: 2
         x: 10
@@ -4466,14 +4445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a9a6c6ddcee04d48a920ce74099f66d
-      internalID: -1231361754
+      spriteID: ef2d50b7d0c46764585a85f2b97f0d22
+      internalID: 616164217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_208
+      name: Guayota_207
       rect:
         serializedVersion: 2
         x: 42
@@ -4487,14 +4466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d3aaf5962bbae49a2f8a8bab799a6e
-      internalID: -1182844591
+      spriteID: 9c43c76cd35e8f94f9ff6fb4f84b2f80
+      internalID: 518268676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_209
+      name: Guayota_208
       rect:
         serializedVersion: 2
         x: 74
@@ -4508,14 +4487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecc5ce010c4110c488772e89eeabc9c4
-      internalID: 1117550288
+      spriteID: f77330f5d80ca314993c59581a88f240
+      internalID: 1259455698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_210
+      name: Guayota_209
       rect:
         serializedVersion: 2
         x: 106
@@ -4529,14 +4508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e62c912473cd1b49894ed20f829ba38
-      internalID: -867414281
+      spriteID: bba1a7132e7034241a9e31b1863d8109
+      internalID: 1793949200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_211
+      name: Guayota_210
       rect:
         serializedVersion: 2
         x: 138
@@ -4550,14 +4529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b88901ee01136498b349f38b58b841
-      internalID: 479852316
+      spriteID: fa38be49fd5a4e345939275a7788b17f
+      internalID: 1879905202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_212
+      name: Guayota_211
       rect:
         serializedVersion: 2
         x: 10
@@ -4571,14 +4550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d20b9c4fa448c64ba97885085085ba1
-      internalID: 1033393675
+      spriteID: 35e082f20c982064bac83192d3d16542
+      internalID: 1672278429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_213
+      name: Guayota_212
       rect:
         serializedVersion: 2
         x: 42
@@ -4592,14 +4571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c93525dd348e41e438e7f2a291c0f9d4
-      internalID: -197503879
+      spriteID: 7ae1dacd0d361f94784d05fc6b9a4993
+      internalID: -175278402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_214
+      name: Guayota_213
       rect:
         serializedVersion: 2
         x: 66
@@ -4613,14 +4592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d65614fc3cbf212448702bd4509c2924
-      internalID: 2093644043
+      spriteID: 7f1895d6cfde5a94e9ef8a29a15a6787
+      internalID: 285504523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_215
+      name: Guayota_214
       rect:
         serializedVersion: 2
         x: 105
@@ -4634,14 +4613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ef7e8245ded3c748942be540db77f3f
-      internalID: 150004456
+      spriteID: 3520264e7becaee418b440ed04d21513
+      internalID: 805054029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_216
+      name: Guayota_215
       rect:
         serializedVersion: 2
         x: 138
@@ -4655,14 +4634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987f59f3abd95c949bcc7a6044ac4f4b
-      internalID: 1274003766
+      spriteID: 08f39d60ecc74f94f9a46bec14169ca4
+      internalID: -1934714732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_217
+      name: Guayota_216
       rect:
         serializedVersion: 2
         x: 2
@@ -4676,14 +4655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a16fa544afa3ef4f9e2a9d8585f8687
-      internalID: 1045421055
+      spriteID: 793060adb8b8a0341a618d65e649b5dd
+      internalID: 525787235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_218
+      name: Guayota_217
       rect:
         serializedVersion: 2
         x: 40
@@ -4697,14 +4676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab2d94015ab1f6438eb135eac99c6cf
-      internalID: 1449552201
+      spriteID: 6114156024bc2614b88a59b6e7b74e76
+      internalID: -1329658619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_219
+      name: Guayota_218
       rect:
         serializedVersion: 2
         x: 74
@@ -4718,14 +4697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bad5e93fd05fa7b4aba16f2611e2414d
-      internalID: 1100549905
+      spriteID: 78c10223842e7c847ba64b7f078bc074
+      internalID: -1692974160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_220
+      name: Guayota_219
       rect:
         serializedVersion: 2
         x: 105
@@ -4739,14 +4718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c3fef8273adc55499f98a3e34719c3c
-      internalID: -1882178452
+      spriteID: 70c0d549f3e4a1c4f96c7ed7ceadacbe
+      internalID: -1953141021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male_221
+      name: Guayota_220
       rect:
         serializedVersion: 2
         x: 130
@@ -4760,8 +4739,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e297c1fe2725c084b8974cec1a45ae64
-      internalID: 1840362482
+      spriteID: cfa6d349ea4886246954da6ba061c057
+      internalID: 1069093750
       vertices: []
       indices: 
       edges: []
@@ -4777,228 +4756,227 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Male_42: 912718275
-      Male_12: 703935624
-      Male_174: 946843674
-      Male_59: 1896744609
-      Male_43: 559951548
-      Male_188: -1575981170
-      Male_211: 479852316
-      Male_138: -1030567237
-      Male_191: -329610972
-      Male_77: 1299854109
-      Male_132: 681231502
-      Male_139: -9046960
-      Male_206: -1946821292
-      Male_85: 1817497321
-      Male_11: -633143048
-      Male_60: 1117380309
-      Male_16: -697374055
-      Male_55: 1284489486
-      Male_108: -800058961
-      Male_167: 170697126
-      Male_52: 1912127516
-      Male_75: -230172962
-      Male_87: 1368657467
-      Male_216: 1274003766
-      Male_157: -1097831815
-      Male_147: 671500412
-      Male_163: 997353728
-      Male_209: 1117550288
-      Male_128: 1705360784
-      Male_131: 1624702452
-      Male_41: 43063500
-      Male_115: 1060053656
-      Male_51: 231017751
-      Male_118: -674359984
-      Male_134: -430802237
-      Male_173: -1272587353
-      Male_73: -1061481372
-      Male_103: 891486057
-      Male_189: -1410177987
-      Male_168: -199764058
-      Male_113: -258410587
-      Male_214: 2093644043
-      Male_120: 879850935
-      Male_121: 1806655591
-      Male_122: 44681376
-      Male_156: 299639752
-      Male_136: -1887309082
-      Male_199: -1419404828
-      Male_91: -480028844
-      Male_106: 55912435
-      Male_180: -1094899661
-      Male_67: -1835490986
-      Male_175: -1504433672
-      Male_218: 1449552201
-      Male_94: -1685143397
-      Male_204: -1056522625
-      Male_141: -368944567
-      Male_193: -1162909378
-      Male_179: 1266064978
-      Male_13: -480551188
-      Male_160: 1190552092
-      Male_36: -769676949
-      Male_92: -767600433
-      Male_208: -1182844591
-      Male_104: -784947265
-      Male_32: 674693371
-      Male_100: -1601223889
-      Male_177: 470094264
-      Male_197: 1164855472
-      Male_127: 679039400
-      Male_54: 193934319
-      Male_21: -1302399399
-      Male_93: -2043504496
-      Male_3: -52470883
-      Male_50: 386459413
-      Male_86: -1468420000
-      Male_46: 97909566
-      Male_28: 407718305
-      Male_44: -698588260
-      Male_39: -1729368978
-      Male_158: -1760608688
-      Male_150: 278243320
-      Male_125: 527724033
-      Male_23: -1825361054
-      Male_17: -132951311
-      Male_178: -1201750267
-      Male_53: 75147979
-      Male_64: 1346625035
-      Male_20: 2042889863
-      Male_149: 1217543326
-      Male_169: 423264967
-      Male_8: 1403033787
-      Male_217: 1045421055
-      Male_5: 1079270772
-      Male_107: 1866935543
-      Male_183: 488597851
-      Male_25: 328244529
-      Male_207: -1231361754
-      Male_187: 1635696856
-      Male_70: 1929993410
-      Male_110: 1385883498
-      Male_143: 1524679547
-      Male_152: -1031031398
-      Male_161: 2043587420
-      Male_29: -1609568781
-      Male_145: -609123829
-      Male_65: -1297039260
-      Male_181: -1586897414
-      Male_15: 436895403
-      Male_30: 92538331
-      Male_221: 1840362482
-      Male_194: 1667328616
-      Male_95: -1970312293
-      Male_155: 1838843621
-      Male_195: 901172370
-      Male_196: -414512279
-      Male_203: -1143841294
-      Male_185: 272902755
-      Male_212: 1033393675
-      Male_117: 1618153740
-      Male_1: -248510256
-      Male_133: -1009183429
-      Male_200: 1989073099
-      Male_154: 1533574611
-      Male_151: 897066100
-      Male_198: -842862516
-      Male_66: 234618590
-      Male_48: -369005078
-      Male_71: -74394769
-      Male_184: -1893202645
-      Male_79: -2059832295
-      Male_89: 1474969481
-      Male_18: 179635634
-      Male_105: 127473813
-      Male_119: -1429522820
-      Male_213: -197503879
-      Male_76: -1918157860
-      Male_38: 699937762
-      Male_62: 952280102
-      Male_114: 164322822
-      Male_166: -291223092
-      Male_97: -2049674318
-      Male_72: 1448774630
-      Male_102: 472341077
-      Male_219: 1100549905
-      Male_69: -338106200
-      Male_68: -1126995698
-      Male_31: 1136701975
-      Male_90: 619834339
-      Male_0: -1835006199
-      Male_192: 1065622923
-      Male_190: 1780681472
-      Male_78: -1418565941
-      Male_202: 1534132385
-      Male_84: -1163617957
-      Male_140: 1346828943
-      Male_137: -219504438
-      Male_201: 594337646
-      Male_19: -1233604150
-      Male_165: -1906693814
-      Male_164: 1484303375
-      Male_4: -727819118
-      Male_159: -1630971551
-      Male_148: -1183849622
-      Male_45: -1995163592
-      Male_40: 684609583
-      Male_49: 751038618
-      Male_153: -1203533289
-      Male_56: 1284186295
-      Male_142: 1138647832
-      Male_210: -867414281
-      Male_26: -1503170271
-      Male_24: 1987940751
-      Male_10: 2132837855
-      Male_182: -3981333
-      Male_82: -842674297
-      Male_57: -1996017949
-      Male_101: -398040598
-      Male_116: 542979894
-      Male_98: -1107039351
-      Male_88: -965327884
-      Male_96: -2098252502
-      Male_61: 1278714596
-      Male_99: -1085025351
-      Male_9: 560359073
-      Male_58: 65022825
-      Male_123: -1283875254
-      Male_7: 2050837550
-      Male_81: 667642065
-      Male_14: -1596343872
-      Male_186: -2145898127
-      Male_83: -2012394776
-      Male_135: 1139057273
-      Male_22: -78894392
-      Male_130: 64129263
-      Male_109: -669103523
-      Male_172: 1342141605
-      Male_6: -1633928583
-      Male_171: 10484915
-      Male_111: -294562586
-      Male_37: -607687118
-      Male_126: -1442469988
-      Male_80: 1281677570
-      Male_35: -1405287247
-      Male_27: -133980685
-      Male_2: 1758144156
-      Male_162: 1927019630
-      Male_146: 1349402857
-      Male_33: 599819492
-      Male_170: -1113705964
-      Male_129: 1047287724
-      Male_47: 2092419634
-      Male_176: -1431353083
-      Male_220: -1882178452
-      Male_34: -360711332
-      Male_144: 31065581
-      Male_63: -1449401489
-      Male_215: 150004456
-      Male_112: 515700679
-      Male_74: -1772826747
-      Male_124: 1790566671
-      Male_205: -872811744
+      Guayota_31: 741576653
+      Guayota_164: -1994314067
+      Guayota_139: 1795270250
+      Guayota_5: -225805710
+      Guayota_47: 1435914411
+      Guayota_133: 1211562043
+      Guayota_134: -794116487
+      Guayota_155: -434300642
+      Guayota_182: -353689628
+      Guayota_115: 129905280
+      Guayota_25: 1446655940
+      Guayota_165: -782694087
+      Guayota_121: 2039222584
+      Guayota_15: 1205633167
+      Guayota_45: 971799084
+      Guayota_103: -196761830
+      Guayota_10: 861338574
+      Guayota_50: -1539202572
+      Guayota_146: -811356536
+      Guayota_113: 1980444397
+      Guayota_26: -1698267112
+      Guayota_39: -1109999550
+      Guayota_144: 431930212
+      Guayota_193: -734317100
+      Guayota_89: -1874925922
+      Guayota_208: 1259455698
+      Guayota_30: -1481538562
+      Guayota_76: 2082108582
+      Guayota_207: 518268676
+      Guayota_195: 78961788
+      Guayota_14: -704116187
+      Guayota_177: 2031427646
+      Guayota_161: 1625753889
+      Guayota_209: 1793949200
+      Guayota_110: -1880121292
+      Guayota_79: 1465756920
+      Guayota_74: -1095832768
+      Guayota_68: 683458471
+      Guayota_120: -280677344
+      Guayota_123: -949302222
+      Guayota_191: -1748068598
+      Guayota_4: 1768279141
+      Guayota_112: -454012345
+      Guayota_210: 1879905202
+      Guayota_86: 1733729144
+      Guayota_126: -933226527
+      Guayota_179: -1930769912
+      Guayota_6: 199403404
+      Guayota_18: 1988839833
+      Guayota_70: 777129091
+      Guayota_166: -1994058704
+      Guayota_174: 93164366
+      Guayota_136: 1650878600
+      Guayota_143: -1747692451
+      Guayota_35: 706738419
+      Guayota_92: 1228075340
+      Guayota_169: -1535151437
+      Guayota_162: -565375628
+      Guayota_52: 874115588
+      Guayota_108: 1960468713
+      Guayota_87: 1053663515
+      Guayota_217: -1329658619
+      Guayota_206: 616164217
+      Guayota_138: 1730858724
+      Guayota_124: -300473795
+      Guayota_185: -944903566
+      Guayota_194: -1645060413
+      Guayota_16: -11534397
+      Guayota_57: -607556346
+      Guayota_131: 1226226730
+      Guayota_40: 550505428
+      Guayota_54: -842903195
+      Guayota_60: 785472767
+      Guayota_125: 570172561
+      Guayota_152: -1442090393
+      Guayota_71: 1602189848
+      Guayota_1: 617634020
+      Guayota_61: 684331718
+      Guayota_128: 870308515
+      Guayota_201: 586071819
+      Guayota_158: -1404321859
+      Guayota_2: 401124941
+      Guayota_22: 1315919373
+      Guayota_94: 1606512389
+      Guayota_216: 525787235
+      Guayota_175: -1785852184
+      Guayota_145: 229513823
+      Guayota_62: -846492225
+      Guayota_142: 1455603727
+      Guayota_36: 1648127107
+      Guayota_99: -626464438
+      Guayota_172: -826887778
+      Guayota_27: -817536490
+      Guayota_95: -195105582
+      Guayota_127: 485540338
+      Guayota_96: -1755301184
+      Guayota_49: 358904631
+      Guayota_140: -1590846857
+      Guayota_17: 949947872
+      Guayota_73: -317840255
+      Guayota_149: -1070684712
+      Guayota_98: 744750726
+      Guayota_82: 1821203683
+      Guayota_67: -41007219
+      Guayota_23: 1608105741
+      Guayota_55: 1461269315
+      Guayota_203: 1768395267
+      Guayota_7: 1053410957
+      Guayota_11: 1196187141
+      Guayota_122: -1156115066
+      Guayota_198: 1793068948
+      Guayota_41: -119682513
+      Guayota_170: -1522084214
+      Guayota_204: 1968880793
+      Guayota_197: -1957172708
+      Guayota_213: 285504523
+      Guayota_48: 1827550297
+      Guayota_77: 129509545
+      Guayota_91: -1353367352
+      Guayota_189: -1894450138
+      Guayota_56: 319208714
+      Guayota_59: -637330850
+      Guayota_137: -1382437431
+      Guayota_186: -1586356430
+      Guayota_214: 805054029
+      Guayota_46: -686046914
+      Guayota_109: 1093593018
+      Guayota_180: -1063146958
+      Guayota_159: 1085711248
+      Guayota_69: -323368362
+      Guayota_34: 1119484655
+      Guayota_64: 1928064326
+      Guayota_187: -1160925785
+      Guayota_163: -1675470573
+      Guayota_58: -394254323
+      Guayota_147: 1219103988
+      Guayota_90: 2146190482
+      Guayota_28: 490858028
+      Guayota_107: 1079521886
+      Guayota_200: -835290682
+      Guayota_211: 1672278429
+      Guayota_72: -957437291
+      Guayota_84: 394136084
+      Guayota_212: -175278402
+      Guayota_0: 1329363083
+      Guayota_218: -1692974160
+      Guayota_135: -1078196110
+      Guayota_181: -1012051036
+      Guayota_12: -869058743
+      Guayota_66: -587609843
+      Guayota_93: -99421584
+      Guayota_150: 1952371978
+      Guayota_215: -1934714732
+      Guayota_173: -1470874130
+      Guayota_168: 336319678
+      Guayota_101: 906997002
+      Guayota_199: 796397460
+      Guayota_116: -1818202382
+      Guayota_37: 331291617
+      Guayota_38: -659930228
+      Guayota_183: -2030355910
+      Guayota_219: -1953141021
+      Guayota_202: 492760038
+      Guayota_75: -254280210
+      Guayota_176: -229909700
+      Guayota_156: -1154716374
+      Guayota_132: -514414348
+      Guayota_148: 1569009438
+      Guayota_141: -1280673285
+      Guayota_102: 1618788606
+      Guayota_21: 147722628
+      Guayota_33: 2083749214
+      Guayota_167: 1800838413
+      Guayota_43: -708833460
+      Guayota_106: -1716017010
+      Guayota_151: -84121675
+      Guayota_29: 1268731851
+      Guayota_160: -1313762475
+      Guayota_97: 319912376
+      Guayota_188: 1240820062
+      Guayota_53: -1048717444
+      Guayota_171: -1690001807
+      Guayota_80: -149076290
+      Guayota_117: -404284286
+      Guayota_63: -1992435857
+      Guayota_190: 2093779669
+      Guayota_192: -2003092277
+      Guayota_114: 75853076
+      Guayota_205: -243786714
+      Guayota_178: -117202625
+      Guayota_111: -1139131361
+      Guayota_88: -2061254074
+      Guayota_51: -1122938438
+      Guayota_78: 1545694564
+      Guayota_153: -152243374
+      Guayota_32: -1942586544
+      Guayota_19: -175900144
+      Guayota_220: 1069093750
+      Guayota_118: -1722047040
+      Guayota_196: -1300643830
+      Guayota_24: 1346963947
+      Guayota_100: 1674588589
+      Guayota_119: 1951172166
+      Guayota_83: -2027408195
+      Guayota_154: 2098036299
+      Guayota_184: 1273749394
+      Guayota_65: -1120783339
+      Guayota_157: 502111421
+      Guayota_130: 775584549
+      Guayota_129: 1431856936
+      Guayota_13: 785469479
+      Guayota_20: -502228659
+      Guayota_9: -1325525098
+      Guayota_85: -337709160
+      Guayota_44: 1856138895
+      Guayota_8: 294647610
+      Guayota_105: -1521636500
+      Guayota_104: -1378898245
+      Guayota_3: 6543920
+      Guayota_81: 285096408
+      Guayota_42: -987735842
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -892,8 +892,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      seeds_1: -1550176746
       seeds_16: 355467599
-      seeds_21: -1657287068
       seeds_19: 1033045408
       seeds_0: -1852976740
       seeds_22: -1046084749
@@ -925,10 +925,10 @@ TextureImporter:
       seeds_25: -872040068
       seeds_34: -428839056
       seeds_13: 1958398377
-      seeds_23: 111408785
       seeds_12: -843422412
+      seeds_21: -1657287068
       seeds_32: 2046241871
-      seeds_1: -1550176746
+      seeds_23: 111408785
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
